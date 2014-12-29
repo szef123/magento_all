@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <all4coding>
+            <children>
+                <maintenance translate="title" module="all4coding_maintenance">
+                    <title>Maintenance Settings</title>
+                    <sort_order>990</sort_order>
+                    <action>adminhtml/system_config/edit/section/a4c_maintenance</action>
+                </maintenance>
+            </children>
+        </all4coding>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <all4coding>
+                        <children>
+                            <maintenance translate="title" module="all4coding_maintenance">
+                                <title>Maintenance Settings</title>
+                                <sort_order>990</sort_order>
+                            </maintenance>
+                        </children>
+                    </all4coding>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <a4c_maintenance translate="title" module="all4coding_maintenance">
+                                        <title>Maintenance Settings</title>
+                                        <sort_order>990</sort_order>
+                                    </a4c_maintenance>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

@@ -1,0 +1,12 @@
+.cms-home .products-grid li.item {width: 220px !important; padding: 0 !important; margin-right: 20px !important;}
+	.cms-home .products-grid li.last{margin-right: 0 !important;}
+
+	.header-button.menu-list {border-left:1px solid #FE6E20; border-radius: 0; }
+	.footer h4 {border: 0 !important; padding-bottom: 0 !important;}
+	span.toggle {display: none !important;}
+	.footer-col.last  {width: 234px !important; margin-left:50px !important; }
+	.home-bg  .padding-s {padding: 10px 0 !important;}
+	#review-form .form-list input.input-text {width: 253px !important;}
+	.form-list select {width: 342px !important;}
+	.form-list li.wide input.input-text {width: 693px !important;}
+	.header-blok-right {height: 144px; min-height: 120px !important;}

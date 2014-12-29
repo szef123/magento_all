@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+ 
+<config>
+    <modules>
+        <Yourteamarket_Newpage>
+            <version>0.1.0</version>
+        </Yourteamarket_Newpage>
+    </modules>   
+ 
+    <frontend>
+        <routers>
+            <yourteamarket_newpage>
+                <use>standard</use>
+                <args>
+                    <module>Yourteamarket_Newpage</module>
+                    <frontName>newpage</frontName>
+                </args>
+            </yourteamarket_newpage>
+        </routers>
+		
+		
+		
+		<!--just layout below - can be removed-->
+        <layout>
+      <updates>
+        <newpage>
+          <file>newpage.xml</file>
+        </newpage>
+      </updates>
+    </layout>
+	
+	
+	
+	
+    </frontend>    
+</config>

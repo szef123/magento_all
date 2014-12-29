@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <All4coding_Maintenance>
+            <version>1.0.2</version>
+        </All4coding_Maintenance>
+    </modules>
+    <global>
+        <helpers>
+            <all4coding_maintenance>
+                <class>All4coding_Maintenance_Helper</class>
+            </all4coding_maintenance>
+        </helpers>
+        <models>
+            <all4coding_maintenance>
+                <class>All4coding_Maintenance_Model</class>
+            </all4coding_maintenance>
+        </models>
+        <blocks>
+            <all4coding_maintenance>
+                <class>All4coding_Maintenance_Block</class>
+            </all4coding_maintenance>
+        </blocks>
+        <events>
+            <controller_front_init_before>
+                <observers>
+                    <all4coding_maintenance_observer>
+                        <class>All4coding_Maintenance_Controller_Router</class>
+                        <method>initControllerRouters</method>
+                    </all4coding_maintenance_observer>
+                </observers>
+            </controller_front_init_before>
+        </events>
+    </global>
+    <frontend>
+        <routers>
+            <all4coding_maintenance>
+                <use>standard</use>
+                <args>
+                    <module>All4coding_Maintenance</module>
+                    <frontName>all4coding-maintenance</frontName>
+                </args>
+            </all4coding_maintenance>
+        </routers>
+        <translate>
+            <modules>
+                <All4coding_Maintenance>
+                    <files>
+                        <default>All4coding_Maintenance.csv</default>
+                    </files>
+                </All4coding_Maintenance>
+            </modules>
+        </translate>
+    </frontend>
+    <adminhtml>
+        <translate>
+            <modules>
+                <All4coding_Maintenance>
+                    <files>
+                        <default>All4coding_Maintenance_Admin.csv</default>
+                    </files>
+                </All4coding_Maintenance>
+            </modules>
+        </translate>
+    </adminhtml>
+    <default>
+        <a4c_maintenance>
+            <general>
+                <maintenance_msg><![CDATA[
+<h1>Service Temporarily Unavailable</h1>
+<p>The server is temporarily unable to service your request due to maintenance downtime or capacity problems. Please try again later.</p>
+]]>
+                </maintenance_msg>
+            </general>
+        </a4c_maintenance>
+    </default>
+</config>

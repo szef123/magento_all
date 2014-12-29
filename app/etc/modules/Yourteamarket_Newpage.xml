@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+ 
+<config>
+    <modules>
+        <Yourteamarket_Newpage>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Yourteamarket_Newpage>
+    </modules>    
+</config>

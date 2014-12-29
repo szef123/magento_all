@@ -1,0 +1,117 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * @var Mage_Page_Block_Html_Header $this
+ */
+
+?>
+<div class="header-container">
+	<div class="container_24">
+		<div class="grid_24">
+			<div class="header">
+          
+				<div class="header-buttons">
+					<div class="row-1">
+						<?php echo $this->getChildHtml('currency') ?>
+						<?php echo $this->getChildHtml('store_language') ?>
+						<div class="header-button top-login">
+							<?php echo $this->getChildHtml('topLinksLeft') ?>
+						</div>
+						<div class="header-button menu-list">
+							<a href="#"></a>
+							<?php echo $this->getChildHtml('topLinks') ?>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+					<div class="quick-access">
+						                   <div class="header-links">
+                                
+	                            <?php echo $this->getChildHtml('topLinksLeft') ?>
+                              
+                               
+	                            <?php echo $this->getChildHtml('topLinks') ?>
+                               <ul class="links">
+                                <li class="first">
+                                <a style="color:#f6e31d; font-weight:bold;" href="http://www.shopsupplements247.com/suggest-a-product"> Suggest a product </a>
+                                </li>
+                                </ul>
+	                        </div>
+                           
+	                        <div class="clear"></div>
+                    	</div>
+				<div class="clear"></div>
+				<?php if ($this->getIsHomePage()):?>
+				<h1 class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h1>
+				<?php else:?>
+					<a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
+				<?php endif?>
+				
+				<div class="header-blok-right">
+					<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('header_info')->toHtml() ?>
+					<?php echo $this->getChildHtml('store_language_2') ?>
+					<?php echo $this->getChildHtml('currency_2') ?>
+					<?php echo $this->getChildHtml('cart_header'); ?>
+				</div>
+               
+				<div class="clear"></div>
+				
+				<?php echo $this->getChildHtml('topContainer'); ?>
+               
+               <!-- <div class="headerextra">
+                <?php //echo $this->getLayout()->createBlock('cms/block')->setBlockId('header_info')->toHtml() ?>
+				<?php //echo $this->getChildHtml('topSearch') ?>
+                </div>-->
+                 <div class="headerextra">
+					<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('header_info')->toHtml() ?>
+					<?php echo $this->getChildHtml('topSearch') ?>
+				</div>
+				<div class="search-phone"><?php echo $this->getChildHtml('topSearch') ?></div>
+       
+			</div>
+            
+		</div>
+		<div class="clear"></div>
+      
+	</div>
+</div>
+<?php echo $this->getChildHtml('topMenu') ?>
+<?php $body_classes = str_replace (' ','',$this->getLayout()->createBlock("page/html")->getBodyClass());  $body_classes_active = "cms-index-index"; ?>
+<?php if($body_classes == $body_classes_active): ?> 
+	<div class="home-bg">
+		<div class="container_24">
+			<div class="wrapper">
+				<div class="grid_24">
+					<div class="padding-s">
+						<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('slider_1')->toHtml() ?>
+						<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('banner_block')->toHtml() ?>
+						<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('banner_list')->toHtml() ?>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<?php endif;?>

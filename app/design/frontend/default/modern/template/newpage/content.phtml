@@ -1,0 +1,2185 @@
+<?php
+$linkfrom =  Mage::app()->getRequest()->getParam('linkfrom');
+
+// find the way to redirect to the homepage when someone will click "back" 
+
+switch($linkfrom) {
+
+// Template
+case '': 
+$affiliatelink = '';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+	
+	
+// Amazon
+case 'http://www.amazon.co.uk/Sabichi-750-Glass-Teapot-Infuser/dp/B0028OIJBI/ref=sr_1_1?ie=UTF8&qid=1417974716&sr=8-1&keywords=Sabichi+750ml':
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0028OIJBI/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0028OIJBI&linkCode=as2&tag=youteamar-21&linkId=UPOQFDO72QSPLSWL';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Teas-Single-Estate-Lapsang-Souchong/dp/B00ACMA8PI/ref=sr_1_10?s=grocery&ie=UTF8&qid=1380653496&sr=1-10&keywords=LuLin+Teas': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00ACMA8PI/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00ACMA8PI&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Lulin-Teas-Loose-Chinese-Exploration/dp/B009S5AIAK/ref=sr_1_1?s=grocery&ie=UTF8&qid=1380653496&sr=1-1&keywords=LuLin+Teas': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B009S5AIAK/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B009S5AIAK&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;		
+case 'http://www.amazon.co.uk/Lulin-Teas-Single-Estate-Teacake/dp/B009S5AOAO/ref=sr_1_9?s=grocery&ie=UTF8&qid=1380652964&sr=1-9&keywords=LuLin+Teas': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B009S5AOAO/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B009S5AOAO&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Lulin-Teas-Single-Estate-Teacake/dp/B009S5AMPQ/ref=sr_1_3?s=grocery&ie=UTF8&qid=1380652000&sr=1-3&keywords=LuLin+Teas': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B009S5AMPQ/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B009S5AMPQ&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Suki-Loose-Leaf-Teapot-532ml/dp/B00AK9KDLW/ref=sr_1_1?ie=UTF8&qid=1379968489&sr=8-1&keywords=suki+teapot': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00AK9KDLW/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00AK9KDLW&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Bodum-UK-Marcel-stainless-infuser/dp/B000GDZEQG/ref=sr_1_1?ie=UTF8&qid=1379967284&sr=8-1&keywords=bodum+marcel': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B000GDZEQG/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B000GDZEQG&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Bodum-UK-Marcel-Stainless-Infuser/dp/B000GOHAI0/ref=sr_1_2?ie=UTF8&qid=1379967174&sr=8-2&keywords=bodum+marcel': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B000GOHAI0/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B000GOHAI0&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Bodum-UK-Litre-Eileen-Press/dp/B004JHXZ1Q/ref=sr_1_2?ie=UTF8&qid=1379849677&sr=8-2&keywords=bodum+eileen': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B004JHXZ1Q/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B004JHXZ1Q&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Bodum-Assam-Handle-Stainless-Filter/dp/B0009VF4V0/ref=sr_1_1?ie=UTF8&qid=1379846743&sr=8-1&keywords=assam+tea+press': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0009VF4V0/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0009VF4V0&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Suki-Tea-Rooibos-Citrus-Herbal/dp/B00ER5884O/ref=sr_1_20?ie=UTF8&qid=1379537410&sr=8-20&keywords=suki+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00ER5884O/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00ER5884O&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Suki-Tea-Peppermint-Total-Pyramids/dp/B00EM6GX9U/ref=sr_1_31?ie=UTF8&qid=1379535025&sr=8-31&keywords=suki+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00EM6GX9U/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00EM6GX9U&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Suki-Tea-Chamomile-Total-Pyramids/dp/B00EQ0ZGEA/ref=sr_1_25?ie=UTF8&qid=1379535025&sr=8-25&keywords=suki+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00EQ0ZGEA/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00EQ0ZGEA&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );
+break;	
+case 'http://www.amazon.co.uk/Suki-Tea-Berry-Loose-Fruit/dp/B00ER58B7I/ref=sr_1_19?ie=UTF8&qid=1379533364&sr=8-19&keywords=suki+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00ER58B7I/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00ER58B7I&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );
+break;	
+case 'http://www.amazon.co.uk/Suki-Tea-Flower-Loose-Black/dp/B00ER588AI/ref=sr_1_13?ie=UTF8&qid=1379529904&sr=8-13&keywords=suki+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00ER588AI/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00ER588AI&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Suki-Tea-Loose-Green-Sencha/dp/B00EQ0ZG86/ref=sr_1_6?ie=UTF8&qid=1379529904&sr=8-6&keywords=suki+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00EQ0ZG86/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00EQ0ZG86&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Suki-Tea-Lemongrass-Ginger-Herbal/dp/B00ER5884Y/ref=sr_1_4?ie=UTF8&qid=1379529906&sr=8-4&keywords=suki+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00ER5884Y/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00ER5884Y&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Suki-Tea-Breakfast-Loose-Black/dp/B00ER584N4/ref=sr_1_2?ie=UTF8&qid=1379529093&sr=8-2&keywords=suki+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00ER584N4/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00ER584N4&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Suki-Tea-Belfast-Fairtrade-Pyramids/dp/B00EM6H1UK/ref=sr_1_16?ie=UTF8&qid=1379526394&sr=8-16&keywords=suki+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00EM6H1UK/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00EM6H1UK&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Suki-Tea-Apple-Loves-Loose/dp/B00EM6H1S2/ref=sr_1_14?s=grocery&ie=UTF8&qid=1379451364&sr=1-14&keywords=tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00EM6H1S2/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00EM6H1S2&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Lulin-Teas-Loose-Green-Exploration/dp/B009S5AOAY/ref=sr_1_2?ie=UTF8&qid=1379450732&sr=8-2&keywords=lulin+teas': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B009S5AOAY/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B009S5AOAY&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Dancing-Lovers-Flowering-Tea-bloom/dp/B007Y2LMQS/ref=sr_1_1?ie=UTF8&qid=1379450170&sr=8-1&keywords=exotic+teapot+dancing': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B007Y2LMQS/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B007Y2LMQS&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Goji-Pomegranate-Black-Tea-75g/dp/B00MLANB9E/ref=sr_1_11?ie=UTF8&qid=1418681389&sr=8-11&keywords=goji+pomegranate':
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00MLANB9E/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00MLANB9E&linkCode=as2&tag=youteamar-21&linkId=DNHICBHHBJROCVKR';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Black-Chai-Tea-75g-Tin/dp/B007ZDEKHO/ref=sr_1_3?ie=UTF8&qid=1379449132&sr=8-3&keywords=exotic+teapot+chai': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B007ZDEKHO/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B007ZDEKHO&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Herbal-Gift-Basket-Premium-Infusions/dp/B00A8Z6P5Q/ref=sr_1_8?ie=UTF8&qid=1379448568&sr=8-8&keywords=exotic+teapot+herbal': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00A8Z6P5Q/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00A8Z6P5Q&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Ayurvedic-Anti-Stress-Herbal-Tea/dp/B007ZLCGQ8/ref=sr_1_1?ie=UTF8&qid=1379447278&sr=8-1&keywords=exotic+teapot++Ayurvedic': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B007ZLCGQ8/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B007ZLCGQ8&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Rooibos-Tropical-Sensation-50g-Tin/dp/B00MP9Y0M8/ref=sr_1_1?ie=UTF8&qid=1418679343&sr=8-1&keywords=rooibos+tropical+sensation':
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00MP9Y0M8/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00MP9Y0M8&linkCode=as2&tag=youteamar-21&linkId=BWKGU72MO4H5YD52';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/The-Exotic-Teapot-Rooibos-Selection/dp/B00PDQEGX8/ref=sr_1_3?ie=UTF8&qid=1419020073&sr=8-3&keywords=exotic+teapot+rooibos':
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00PDQEGX8/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00PDQEGX8&linkCode=as2&tag=youteamar-21&linkId=OBW3P4245PUWWCBL';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Fruit-Gift-Basket-Premium-Infusions/dp/B00A8Z31TE/ref=sr_1_1?ie=UTF8&qid=1379444245&sr=8-1&keywords=exotic+teapot+fruit+basket': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00A8Z31TE/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00A8Z31TE&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Turkish-Apple-Lime-Fruit-infusions/dp/B00MP9WRXM/ref=sr_1_2?ie=UTF8&qid=1419020449&sr=8-2&keywords=turkish+apple+lime':
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00MP9WRXM/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00MP9WRXM&linkCode=as2&tag=youteamar-21&linkId=VRDDVSBALGVL36VV';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Raspberry-Fruit-Infusions--75g-Tin/dp/B007ZDEJIE/ref=sr_1_1?ie=UTF8&qid=1379443303&sr=8-1&keywords=exotic+teapot+raspberry': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B007ZDEJIE/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B007ZDEJIE&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Apple-Maple-Walnut-Fruit-infusions/dp/B00MP9RTP8/ref=sr_1_1?ie=UTF8&qid=1418679457&sr=8-1&keywords=apple+walnut+maple':
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00MP9RTP8/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00MP9RTP8&linkCode=as2&tag=youteamar-21&linkId=DMFTN3WMETPPQVVM';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Exotic-Bazaar-Fruit-infusions-75g/dp/B00MP9Q7B0/ref=sr_1_1?ie=UTF8&qid=1418681076&sr=8-1&keywords=bazaar+fruit+infusion':
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00MP9Q7B0/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00MP9Q7B0&linkCode=as2&tag=youteamar-21&linkId=5UXJTHRVMFSCF4Q2';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/White-Gift-Basket-Tins-Premium/dp/B00A8YMGEQ/ref=sr_1_1?ie=UTF8&qid=1379363941&sr=8-1&keywords=exotic+teapot+white+basket': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00A8YMGEQ/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00A8YMGEQ&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/White-Pomegranate-Dragon-Tea-50g/dp/B00MPA2YGQ/ref=sr_1_1?ie=UTF8&qid=1419020616&sr=8-1&keywords=white+pomegranate+dragon':
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00MPA2YGQ/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00MPA2YGQ&linkCode=as2&tag=youteamar-21&linkId=DXMYDRRYDF6TIDTI';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/China-Jasmine-Oolong-Tea-50g/dp/B007Z0XCHG/ref=sr_1_1?ie=UTF8&qid=1379362547&sr=8-1&keywords=exotic+teapot+oolong': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B007Z0XCHG/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B007Z0XCHG&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Blossoming-Tea-Deluxe-Tins-Blooming/dp/B007U1WZ0U/ref=sr_1_1?ie=UTF8&qid=1379362001&sr=8-1&keywords=exotic+teapot+blossoming+deluxe': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B007U1WZ0U/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B007U1WZ0U&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Flowering-Sampler-Gift-hand-tied-blooms/dp/B001ANEHXM/ref=sr_1_2?ie=UTF8&qid=1379360724&sr=8-2&keywords=exotic+teapot': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B001ANEHXM/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B001ANEHXM&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Jasmine-Pearls-Green-Tea-200g/dp/B007YJC9IG/ref=sr_1_8?ie=UTF8&qid=1379359998&sr=8-8&keywords=exotic+teapot': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B007YJC9IG/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B007YJC9IG&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Imperial-Jasmine-Silver-Needle-White/dp/B00MPA0OSG/ref=sr_1_4?ie=UTF8&qid=1419018812&sr=8-4&keywords=exotic+teapot+jasmine+silver+needle':
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00MPA0OSG/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00MPA0OSG&linkCode=as2&tag=youteamar-21&linkId=XQHAPNJTTVKSCDWT';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/The-Exotic-Teapot-TROO-ORGANIC2-Rooibos/dp/B007Z0XC30/ref=sr_1_1?ie=UTF8&qid=1379272921&sr=8-1&keywords=exotic+teapot+rooibos': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B007Z0XC30/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B007Z0XC30&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Iron-Buddha-Tie-Guan-Oolong/dp/B00MP9NDB2/ref=sr_1_1?ie=UTF8&qid=1419020342&sr=8-1&keywords=exotic+teapot+tieguan+yin':
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00MP9NDB2/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00MP9NDB2&linkCode=as2&tag=youteamar-21&linkId=XOWXVCA5XZNEGACR';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Dragon-Well-Long-Jing-Green/dp/B007YJC9RC/ref=sr_1_6?ie=UTF8&qid=1379271593&sr=8-6&keywords=exotic+teapot': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B007YJC9RC/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B007YJC9RC&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/English-Teas-Trio-Combination-Traditional/dp/B008LLWIA0/ref=sr_1_1?s=grocery&ie=UTF8&qid=1379270556&sr=1-1&keywords=ahmad+tea+trio': 
+$affiliatelink='http://www.amazon.co.uk/gp/product/B008LLWIA0/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B008LLWIA0&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Tea-London-Heritage-Houses-Parliament/dp/B008LFYRC8/ref=sr_1_fkmr0_1?s=grocery&ie=UTF8&qid=1379269181&sr=1-1-fkmr0&keywords=ahmad+tea+heritage': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B008LFYRC8/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B008LFYRC8&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/English-Teas-Selection-Pack-Evergreen/dp/B008LFHHGQ/ref=sr_1_1?s=grocery&ie=UTF8&qid=1379268453&sr=1-1&keywords=ahmad+tea+evergreen': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B008LFHHGQ/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B008LFHHGQ&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/English-Teas-Selection-Pack-Herbalist/dp/B008LFD742/ref=sr_1_15?s=grocery&ie=UTF8&qid=1379266438&sr=1-15&keywords=ahmad+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B008LFD742/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B008LFD742&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Ahmad-tea-English-breakfast-bags/dp/B009OF0L92/ref=sr_1_2?s=grocery&ie=UTF8&qid=1379266438&sr=1-2&keywords=ahmad+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B009OF0L92/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B009OF0L92&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/English-Tea-Twelve-Teas-selection/dp/B004UWZ090/ref=sr_1_33?s=grocery&ie=UTF8&qid=1379264664&sr=1-33&keywords=tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B004UWZ090/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B004UWZ090&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Twinings-Green-Selection-Teabags-Total/dp/B006FGYLW6/ref=sr_1_18?s=grocery&ie=UTF8&qid=1379262807&sr=1-18&keywords=tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B006FGYLW6/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B006FGYLW6&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Tetley-Redbush-Teabags-pack-Total/dp/B005DKVK4M/ref=sr_1_17?s=grocery&ie=UTF8&qid=1378049401&sr=1-17&keywords=rooibos+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B005DKVK4M/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B005DKVK4M&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Pure-Rooibos-Loose-Tea-Ringtons/dp/B0074GV1FQ/ref=sr_1_6?s=grocery&ie=UTF8&qid=1378048134&sr=1-6&keywords=rooibos+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0074GV1FQ/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0074GV1FQ&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Clearspring-Organic-Japanese-Matcha-Ceremonial/dp/B00D1YM154/ref=sr_1_3?ie=UTF8&qid=1377891470&sr=8-3&keywords=clearspring+matcha': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00D1YM154/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00D1YM154&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Clearspring-Organic-Japanese-Matcha-Premium/dp/B00CVPSDYM/ref=sr_1_1?ie=UTF8&qid=1377891257&sr=8-1&keywords=clearspring+matcha': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00CVPSDYM/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00CVPSDYM&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Tea-Palace-Goddess-Mercy-Oolong/dp/B003T6R9J2/ref=sr_1_1?ie=UTF8&qid=1377888472&sr=8-1&keywords=tea+palace+oolong': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B003T6R9J2/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B003T6R9J2&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Tea-Palace-Organic-Rooibos-200/dp/B00CQ7HG4S/ref=sr_1_3?s=grocery&ie=UTF8&qid=1377723646&sr=1-3&keywords=Tea+Palace+rooibos': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00CQ7HG4S/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00CQ7HG4S&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Tea-Palace-Pu-Erh-Imperial-Black/dp/B003T6SW34/ref=sr_1_22?ie=UTF8&qid=1377722481&sr=8-22&keywords=puerh+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B003T6SW34/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B003T6SW34&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Tea-Forte-Bombay-Chai-Individually/dp/B001B41TTK/ref=sr_1_8?ie=UTF8&qid=1377718918&sr=8-8&keywords=tea+forte': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B001B41TTK/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B001B41TTK&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Tea-Forte-Decaf-Breakfast-Gourmet/dp/B001H072KI/ref=sr_1_7?ie=UTF8&qid=1377718918&sr=8-7&keywords=tea+forte': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B001H072KI/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B001H072KI&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Tea-Forte-Organic-English-Breakfast/dp/B001H08MLG/ref=sr_1_1?ie=UTF8&qid=1377717268&sr=8-1&keywords=tea+forte': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B001H08MLG/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B001H08MLG&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Tea-Forte-Organic-Chamomile-Gourmet/dp/B001H0CTUG/ref=sr_1_26?ie=UTF8&qid=1377716115&sr=8-26&keywords=tea+forte': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B001H0CTUG/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B001H0CTUG&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Tea-Forte-Raspberry-Nectar-Individually/dp/B001GD7N3W/ref=sr_1_4?ie=UTF8&qid=1377713903&sr=8-4&keywords=tea+forte': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B001GD7N3W/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B001GD7N3W&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Teas-Single-Sunshine-Rainbow-Blooming/dp/B00A38YB0Y/ref=sr_1_1?ie=UTF8&qid=1376744478&sr=8-1&keywords=lulin+SUNSHINE': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00A38YB0Y/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00A38YB0Y&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Teas-Single-Estate-Butterfly-Blooming/dp/B00A38YB3Q/ref=sr_1_1?ie=UTF8&qid=1376743980&sr=8-1&keywords=lulin+BUTTERFLY': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00A38YB3Q/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00A38YB3Q&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Teas-Single-Estate-Fragrance-Blooming/dp/B00A38W9YY/ref=sr_1_1?ie=UTF8&qid=1376743071&sr=8-1&keywords=lulin+fALL': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00A38W9YY/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00A38W9YY&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Teas-Single-Estate-Whisper-Blooming/dp/B00A38WA52/ref=sr_1_3?ie=UTF8&qid=1376741724&sr=8-3&keywords=lulin+FLOWER': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00A38WA52/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00A38WA52&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Teas-Single-Estate-Blossom-Blooming/dp/B00A38WA7A/ref=sr_1_1?ie=UTF8&qid=1376739235&sr=8-1&keywords=lulin+GOLDEN': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00A38WA7A/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00A38WA7A&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Teas-Single-Estate-Oriental-Blooming/dp/B00A38YB2C/ref=sr_1_1?ie=UTF8&qid=1376738179&sr=8-1&keywords=lulin+oriental+beauty': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00A38YB2C/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00A38YB2C&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Teas-Single-Estate-Fairies-Blooming/dp/B00A38WA0M/ref=sr_1_1?ie=UTF8&qid=1376737298&sr=8-1&keywords=lulin+SEVEN+FAIRIES': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00A38WA0M/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00A38WA0M&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Teas-Single-Estate-Fairies-Blooming/dp/B00A38WA0M/ref=sr_1_1?ie=UTF8&qid=1376737298&sr=8-1&keywords=lulin+SEVEN+FAIRIES': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00A38WA0M/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00A38WA0M&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Teas-Single-Estate-Ginseng-Teabags/dp/B009S5AO7M/ref=sr_1_3?ie=UTF8&qid=1376736737&sr=8-3&keywords=lulin+ginseng+oolong': 
+$affiliatelink ='http://www.amazon.co.uk/gp/product/B009S5AO7M/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B009S5AO7M&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Lulin-Teas-Ginseng-Power-Refill/dp/B00BV4TI3O/ref=sr_1_1?ie=UTF8&qid=1376736094&sr=8-1&keywords=lulin+ginseng': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00BV4TI3O/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00BV4TI3O&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Lulin-Teas-Loose-Single-Estate/dp/B00ACMA8J4/ref=sr_1_2?ie=UTF8&qid=1376684448&sr=8-2&keywords=lulin+teas+an+ji': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00ACMA8J4/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00ACMA8J4&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Lulin-Teas-Loose-Single-Estate/dp/B00ACMA8LC/ref=sr_1_1?ie=UTF8&qid=1376683604&sr=8-1&keywords=lulin+teas+BI+LUO': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00ACMA8LC/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00ACMA8LC&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Lulin-Teas-Single-Estate-Gunpowder/dp/B00ACMB5LY/ref=sr_1_1?ie=UTF8&qid=1376679716&sr=8-1&keywords=lulin+teas+GUNPOWDER': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00ACMB5LY/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00ACMB5LY&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Lulin-Teas-Loose-Single-Estate/dp/B00ACMA8SK/ref=sr_1_2?ie=UTF8&qid=1381672833&sr=8-2&keywords=mao+feng+green+tea+lulin': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00ACMA8SK/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00ACMA8SK&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Teas-Single-Estate-Jasmine-Dragon/dp/B00ACMB5T6/ref=sr_1_1?s=grocery&ie=UTF8&qid=1376602102&sr=1-1&keywords=lulin+teas+jasmine': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00ACMB5T6/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00ACMB5T6&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Lulin-Teas-Loose-Single-Estate/dp/B00ACMB5KU/ref=sr_1_4?s=grocery&ie=UTF8&qid=1376600714&sr=1-4&keywords=lulin+teas+LONG+JING': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00ACMB5KU/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00ACMB5KU&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Lulin-Teas-Single-Estate-Teabags/dp/B009S5AICI/ref=sr_1_2?s=grocery&ie=UTF8&qid=1376600189&sr=1-2&keywords=lulin+teas+TEA+CUBED': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B009S5AICI/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B009S5AICI&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Lulin-Teas-Loose-Single-Estate/dp/B00ACMCRX4/ref=sr_1_3?s=grocery&ie=UTF8&qid=1376599618&sr=1-3&keywords=lulin+teas+an+ji': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00ACMCRX4/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00ACMCRX4&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Lulin-Teas-Single-Estate-Yellow/dp/B00ACMB5KA/ref=sr_1_3?s=grocery&ie=UTF8&qid=1376599367&sr=1-3&keywords=lulin+teas+yellow+tip': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00ACMB5KA/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00ACMB5KA&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Lulin-Teas-Loose-Single-Estate/dp/B00ACMA8Q2/ref=sr_1_1?s=grocery&ie=UTF8&qid=1376597840&sr=1-1&keywords=lulin+teas+white+puerh': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00ACMA8Q2/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00ACMA8Q2&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Teas-Single-Estate-Silver-Needle/dp/B00ACMB5BO/ref=sr_1_2?ie=UTF8&qid=1376595258&sr=8-2&keywords=lulin+teas+silver+needle': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00ACMB5BO/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00ACMB5BO&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/English-Tea-Shop-Classic-Tagged/dp/B0083TQC8O/ref=sr_1_25?ie=UTF8&qid=1375814736&sr=8-25&keywords=english+tea+shop': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0083TQC8O/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0083TQC8O&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/English-Tea-Shop-Calming-Organic/dp/B0081ZHRQG/ref=sr_1_23?ie=UTF8&qid=1375814736&sr=8-23&keywords=english+tea+shop': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0081ZHRQG/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0081ZHRQG&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/English-Tea-Shop-Rooibos-Fairtrade/dp/B0081ZHQ1C/ref=sr_1_20?ie=UTF8&qid=1375814736&sr=8-20&keywords=english+tea+shop': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0081ZHQ1C/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0081ZHQ1C&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/English-Tea-Shop-Rooibos-Chocolate/dp/B0083TQCDY/ref=sr_1_19?ie=UTF8&qid=1375813885&sr=8-19&keywords=english+tea+shop': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0083TQCDY/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0083TQCDY&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/English-Tea-Shop-Fairtrade-Tagged/dp/B0083TQCDO/ref=sr_1_19?ie=UTF8&qid=1375634050&sr=8-19&keywords=english+tea+shop': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0083TQCDO/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0083TQCDO&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/English-Tea-Shop-Tropical-Organic/dp/B0081ZHQ7G/ref=sr_1_17?ie=UTF8&qid=1375633753&sr=8-17&keywords=english+tea+shop': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0081ZHQ7G/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0081ZHQ7G&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/English-Tea-Shop-Raspberry-Super/dp/B0081ZHTUU/ref=sr_1_17?ie=UTF8&qid=1375556045&sr=8-17&keywords=english+tea+shop': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0081ZHTUU/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0081ZHTUU&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/English-Tea-Shop-Lemongrass-Organic/dp/B0081ZHQ2Q/ref=sr_1_16?ie=UTF8&qid=1375553477&sr=8-16&keywords=english+tea+shop': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0081ZHQ2Q/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0081ZHQ2Q&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/English-Tea-Shop-Pomegranate-Cranberry/dp/B0083TQC66/ref=sr_1_15?ie=UTF8&qid=1375553477&sr=8-15&keywords=english+tea+shop': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0083TQC66/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0083TQC66&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/English-Tea-Shop-Diamond-Fairtrade/dp/B0081ZHUZE/ref=sr_1_14?ie=UTF8&qid=1375553477&sr=8-14&keywords=english+tea+shop': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0081ZHUZE/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0081ZHUZE&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/English-Tea-Shop-White-Organic/dp/B0081ZHRPM/ref=sr_1_13?ie=UTF8&qid=1375548134&sr=8-13&keywords=english+tea+shop': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0081ZHRPM/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0081ZHRPM&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/English-Tea-Shop-Black-Organic/dp/B0081ZHQ26/ref=sr_1_11?ie=UTF8&qid=1375548134&sr=8-11&keywords=english+tea+shop': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0081ZHQ26/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0081ZHQ26&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/English-Tea-Shop-Sencha-Organic/dp/B0081ZHSQA/ref=sr_1_10?ie=UTF8&qid=1375548134&sr=8-10&keywords=english+tea+shop': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0081ZHSQA/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0081ZHSQA&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/English-Tea-Shop-Berries-Organic/dp/B0081ZHRR0/ref=sr_1_9?ie=UTF8&qid=1375548134&sr=8-9&keywords=english+tea+shop': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0081ZHRR0/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0081ZHRR0&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/English-Tea-Shop-Peppermint-Fairtrade/dp/B0081ZHP7C/ref=sr_1_8?ie=UTF8&qid=1375548134&sr=8-8&keywords=english+tea+shop': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0081ZHP7C/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0081ZHP7C&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/English-Tea-Shop-Breakfast-Fairtrade/dp/B0081ZHP2M/ref=sr_1_6?ie=UTF8&qid=1375548134&sr=8-6&keywords=english+tea+shop': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0081ZHP2M/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0081ZHP2M&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/English-Tea-Shop-Chamomile-Organic/dp/B0081ZHROS/ref=sr_1_5?ie=UTF8&qid=1375548134&sr=8-5&keywords=english+tea+shop#productDetails': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0081ZHROS/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0081ZHROS&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/English-Tea-Shop-Rooibos-Chocolate/dp/B0083TQW3E/ref=sr_1_4?ie=UTF8&qid=1375548134&sr=8-4&keywords=english+tea+shop': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0083TQW3E/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0083TQW3E&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/English-Tea-Shop-Super-Sachet/dp/B009X6HFGY/ref=sr_1_3?ie=UTF8&qid=1375548134&sr=8-3&keywords=english+tea+shop': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B009X6HFGY/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B009X6HFGY&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/English-Tea-Shop-Assorted-Fairtrade/dp/B0081ZHUYK/ref=sr_1_2?ie=UTF8&qid=1375547639&sr=8-2&keywords=english+tea+shop': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0081ZHUYK/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0081ZHUYK&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/English-Tea-Shop-Assorted-Fairtrade/dp/B0081ZHTTG/ref=sr_1_1?ie=UTF8&qid=1375481931&sr=8-1&keywords=english+tea+shop': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0081ZHTTG/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0081ZHTTG&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Organic-Matcha-Green-Ceremonial-Grade/dp/B00B5DY73W/ref=sr_1_2?ie=UTF8&qid=1375479895&sr=8-2&keywords=vitalife+organic': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00B5DY73W/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00B5DY73W&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Matcha-Green-Latte-100g-Vanilla/dp/B007R5J160/ref=sr_1_1?ie=UTF8&qid=1375299445&sr=8-1&keywords=vitalife+matcha+vanilla': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B007R5J160/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B007R5J160&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Vitalife-Matcha-Green-cooking-grade/dp/B005TTYDK0/ref=sr_1_8?ie=UTF8&qid=1375296702&sr=8-8&keywords=vitalife+matcha': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B004NPNXL6/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B004NPNXL6&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Vitalife-Matcha-Green-Powder-Ceremonial/dp/B005LXRATA/ref=sr_1_6?ie=UTF8&qid=1375295237&sr=8-6&keywords=vitalife+matcha': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B005LXRATA/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B005LXRATA&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Vitalife-Japanese-Matcha-Powder-Beginners/dp/B005LXT084/ref=sr_1_2?ie=UTF8&qid=1375209566&sr=8-2&keywords=vitalife+matcha': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B005LXT084/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B005LXT084&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Choi-Time-Chrysanthemum-Flowers-20g/dp/B005C0RLZA/ref=sr_1_8?s=grocery&ie=UTF8&qid=1375123470&sr=1-8&keywords=CHOI+TIME': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B005C0RLZA/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B005C0RLZA&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Jasmine-Green-Tea-Pearls-90g/dp/B005C0RM2W/ref=sr_1_2?s=grocery&ie=UTF8&qid=1375123470&sr=1-2&keywords=CHOI+TIME': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B005C0RM2W/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B005C0RM2W&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Choi-Time-White-Tea-30g/dp/B005C0RM2C/ref=sr_1_5?s=grocery&ie=UTF8&qid=1375123470&sr=1-5&keywords=CHOI+TIME': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B005C0RM2C/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B005C0RM2C&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Choi-Time-Damask-Rose-Buds/dp/B005C0RM0O/ref=sr_1_sc_1?ie=UTF8&qid=1375123154&sr=8-1-spell&keywords=CHOI+TIME+ROSEBUDS': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B005C0RM0O/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B005C0RM0O&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Marigold-Basket-Flowering-Tea-Bulb/dp/B005C0RM5Y/ref=sr_1_1?ie=UTF8&qid=1375041184&sr=8-1&keywords=marigold+basket+choi+time': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B005C0RM5Y/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B005C0RM5Y&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Flowering-Jasmine-Green-Tea-70g/dp/B005C0RM4K/ref=sr_1_1?s=grocery&ie=UTF8&qid=1374872548&sr=1-1&keywords=choi+time': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B005C0RM4K/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B005C0RM4K&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Clipper-Organic-Green-Loose-Leaf/dp/B00666277G/ref=sr_1_41?s=grocery&ie=UTF8&qid=1374699232&sr=1-41&keywords=loose+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00666277G/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00666277G&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/gp/product/B007T672OA/ref=noref?ie=UTF8&psc=1&s=grocery': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B007T672OA/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B007T672OA&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/The-Tea-Makers-London-Taiwanese/dp/B00A8QL2TY/ref=sr_1_63?ie=UTF8&qid=1374697656&sr=8-63&keywords=tea+makers+of+london': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00A8QL2TY/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00A8QL2TY&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Premium-Ceremonial-Japanese-Matcha-Tea/dp/B00DPNIXGC/ref=sr_1_45?ie=UTF8&qid=1374696896&sr=8-45&keywords=tea+makers+of+london': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00DPNIXGC/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00DPNIXGC&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/gp/product/B009XJ77ZK/ref=noref?ie=UTF8&psc=1&s=grocery': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B009XJ77ZK/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B009XJ77ZK&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/gp/product/B0097V7042/ref=noref?ie=UTF8&psc=1&s=grocery': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0097V7042/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0097V7042&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/gp/product/B004E5MVTU/ref=noref?ie=UTF8&psc=1&s=grocery': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B004E5MVTU/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B004E5MVTU&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/gp/product/B004WSNXPK/ref=noref?ie=UTF8&psc=1&s=grocery': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B004WSNXPK/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B004WSNXPK&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/gp/product/B00981ZNUE/ref=noref?ie=UTF8&psc=1&s=grocery': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00981ZNUE/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00981ZNUE&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/gp/product/B007WEOHQ0/ref=noref?ie=UTF8&psc=1&s=grocery': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B007WEOHQ0/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B007WEOHQ0&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/gp/product/B007L4YIOM/ref=noref?ie=UTF8&psc=1&s=grocery': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B007L4YIOM/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B007L4YIOM&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/gp/product/B007T60PN0/ref=noref?ie=UTF8&psc=1&s=grocery': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B007T60PN0/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B007T60PN0&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/gp/product/B0059T3TLO/ref=noref?ie=UTF8&psc=1&s=grocery': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0059T3TLO/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0059T3TLO&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/The-Tea-Makers-London-White/dp/B0097UGMTC/ref=sr_1_11?ie=UTF8&qid=1374421299&sr=8-11&keywords=tea+makers+of+london': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0097UGMTC/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0097UGMTC&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/gp/product/B009G6OHUS/ref=noref?ie=UTF8&psc=1&s=grocery': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B009G6OHUS/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B009G6OHUS&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/gp/product/B004CYD1CO/ref=noref?ie=UTF8&psc=1&s=grocery': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B004CYD1CO/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B004CYD1CO&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/gp/product/B00598796G/ref=noref?ie=UTF8&psc=1&s=grocery': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00598796G/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00598796G&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/gp/product/B00ADAJ7P6/ref=noref?ie=UTF8&psc=1&s=grocery': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00ADAJ7P6/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00ADAJ7P6&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/gp/product/B005NK9LWU/ref=noref?ie=UTF8&psc=1&s=grocery': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B005NK9LWU/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B005NK9LWU&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/gp/product/B0075KJGEO/ref=noref?ie=UTF8&psc=1&s=grocery': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0075KJGEO/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0075KJGEO&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/gp/product/B007LS695O/ref=noref?ie=UTF8&psc=1&s=grocery': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B007LS695O/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B007LS695O&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/gp/product/B005T63WI2/ref=noref?ie=UTF8&psc=1&s=grocery': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B005T63WI2/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B005T63WI2&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/gp/product/B004CYMRYW/ref=noref?ie=UTF8&psc=1&s=grocery': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B004CYMRYW/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B004CYMRYW&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/The-Tea-Makers-London-Natural/dp/B004HUSNXA/ref=sr_1_1?s=grocery&ie=UTF8&qid=1374316698&sr=1-1&keywords=the+tea+makers+of+london': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B004HUSNXA/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B004HUSNXA&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Teapigs-Liquorice-and-Mint-Tea/dp/B0037AVMES/ref=sr_1_3?s=grocery&ie=UTF8&qid=1374095813&sr=1-3&keywords=teapigs+liquorice+%26+peppermint': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0037AVMES/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0037AVMES&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Tea-Pigs-140B-Teapigs-Yerba/dp/B002QAXV30/ref=sr_1_2?s=grocery&ie=UTF8&qid=1374095119&sr=1-2&keywords=teapigs+yerba+mate': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B002QAXV30/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B002QAXV30&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Tea-Pigs-116000016-Teapigs-Super/dp/B0037B4FR8/ref=sr_1_2?s=grocery&ie=UTF8&qid=1374088935&sr=1-2&keywords=teapigs+super+fruit': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0037B4FR8/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0037B4FR8&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Teapigs-Pure-Lemongrass-Tea-Teabags/dp/B0037AYYZM/ref=sr_1_2?ie=UTF8&qid=1374086953&sr=8-2&keywords=teapigs+lemongrass': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0037AYYZM/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0037AYYZM&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Tea-Pigs-Peppermint-Leaves-Teabags/dp/B0037AWS0U/ref=sr_1_2?s=grocery&ie=UTF8&qid=1374010221&sr=1-2&keywords=teapigs+peppermint': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0037AWS0U/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0037AWS0U&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Tea-Pigs-Chamomile-Flowers-Teabags/dp/B0037B0RGQ/ref=sr_1_2?s=grocery&ie=UTF8&qid=1374008809&sr=1-2&keywords=teapigs+chamomile': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0037B0RGQ/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0037B0RGQ&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Teapigs-Spiced-Winter-Red-Tea/dp/B0037B6P12/ref=sr_1_sc_1?ie=UTF8&qid=1374004308&sr=8-1-spell&keywords=winter+spiced+red+te': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0037B6P12/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0037B6P12&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Teapigs-Rooibos-Cr%C3%A8me-Caramel-Tea/dp/B0037B6OEA': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0037B6OEA/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0037B6OEA&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Tea-Pigs-Teapigs-Rooibos/dp/B0037AYKJ2/ref=sr_1_2?s=grocery&ie=UTF8&qid=1373314422&sr=1-2&keywords=teapigs+ROOIBOS': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0037AYKJ2/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0037AYKJ2&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Teapigs-Tung-Ting-Oolong-Tea/dp/B0037B0978/ref=sr_1_1?ie=UTF8&qid=1373311210&sr=8-1&keywords=teapigs+tung+ting+oolong': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0037B0978/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0037B0978&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Teapigs-Silver-Tips-White-Tea/dp/B004QGSBDM/ref=sr_1_1?s=grocery&ie=UTF8&qid=1372600643&sr=1-1&keywords=teapigs+silver+tips': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B004QGSBDM/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B004QGSBDM&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Teapigs-Jasmine-Pearls-Tea/dp/B0037B2LBK': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0037B2LBK/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0037B2LBK&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Teapigs-Popcorn-Tea/dp/B0037B28FY/ref=sr_1_1?ie=UTF8&qid=1372360221&sr=8-1&keywords=teapigs+popcorn+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0037B28FY/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0037B28FY&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Teapigs-Green-Mint-tea-temples/dp/B003LYIYI2/ref=sr_1_1?ie=UTF8&qid=1372017495&sr=8-1&keywords=green+tea+with+mint': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B003LYIYI2/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B003LYIYI2&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Teapigs-Chocolate-Flake-Tea/dp/B003BCKPBI/ref=sr_1_1?ie=UTF8&qid=1371756636&sr=8-1&keywords=teapigs+chocolate+flake+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B003BCKPBI/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B003BCKPBI&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Teapigs-Mao-Feng-Green-Tea/dp/B0037AWHZG/ref=sr_1_5?ie=UTF8&qid=1371584068&sr=8-5&keywords=mao+feng': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0037AWHZG/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0037AWHZG&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Teapigs-Chilli-Chai-Tea/dp/B0037AW7CY/ref=sr_1_1?s=grocery&ie=UTF8&qid=1371498080&sr=1-1&keywords=teapigs+chilli+chai': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0037AW7CY/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0037AW7CY&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Tea-Pigs-Darjeeling-Earl-Teabags/dp/B0037B6H9M/ref=sr_1_1?ie=UTF8&qid=1371497554&sr=8-1&keywords=teapigs+darjeeling+earl+grey': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0037B6H9M/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0037B6H9M&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Tea-Pigs-Organic-Matcha-Super/dp/B0048F7N4O/ref=sr_1_1?ie=UTF8&qid=1371411904&sr=8-1&keywords=teapigs+matcha': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0048F7N4O/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0048F7N4O&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Teapigs-Lemon-and-Ginger-Tea/dp/B0048LFXKY/ref=sr_1_1?s=grocery&ie=UTF8&qid=1371411436&sr=1-1&keywords=teapigs+lemon+and+ginger': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0048LFXKY/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0048LFXKY&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Teapigs-116000003-Chai-Tea/dp/B0037B0C66/ref=sr_1_2?ie=UTF8&qid=1371410415&sr=8-2&keywords=teapigs+chai': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0037B0C66/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0037B0C66&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/English-Breakfast-Tea-Teapigs-Temples/dp/B0037B0GJO/ref=sr_1_3?ie=UTF8&qid=1370984597&sr=8-3&keywords=teapigs': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0037B0GJO/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0037B0GJO&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Canton-Tea-Gong-Puerh-Refill/dp/B008JVKC1Y/ref=sr_1_1?s=grocery&ie=UTF8&qid=1370897432&sr=1-1&keywords=canton+tea+Gong+Ting': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B008JVKC1Y/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B008JVKC1Y&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Canton-Tea-Lincang-Puerh-Refill/dp/B008JVKC1E/ref=sr_1_1?s=grocery&ie=UTF8&qid=1370896681&sr=1-1&keywords=canton+tea+puerh': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B008JVKC1E/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B008JVKC1E&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Canton-Tea-Co-Puerh-Collection/dp/B00A3TU6UC/ref=sr_1_10?ie=UTF8&qid=1370895740&sr=8-10&keywords=canton+tea+puerh': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00A3TU6UC/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00A3TU6UC&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Canton-Tea-Shan-Oolong-Refill/dp/B008JVK624/ref=sr_1_1?s=grocery&ie=UTF8&qid=1370894002&sr=1-1&keywords=canton+tea+li+shan': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B008JVK624/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B008JVK624&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Canton-Tea-Shan-Oolong-Refill/dp/B008JVK3JA/ref=sr_1_2?s=grocery&ie=UTF8&qid=1370887276&sr=1-2&keywords=canton+tea+ali+shan': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B008JVK3JA/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B008JVK3JA&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Canton-Tea-Cong-Oolong-Refill/dp/B008JVK3BS/ref=sr_1_2?s=grocery&ie=UTF8&qid=1370886039&sr=1-2&keywords=canton+tea+honey': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B008JVK3BS/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B008JVK3BS&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Canton-Tea-Hong-Oolong-Refill/dp/B008JVK3DG/ref=sr_1_2?s=grocery&ie=UTF8&qid=1370878412&sr=1-2&keywords=canton+tea+big+red+robe': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B008JVK3DG/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B008JVK3DG&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Canton-Tea-Guan-Oolong-Refill/dp/B008JVK3AY/ref=sr_1_fkmr0_1?s=grocery&ie=UTF8&qid=1370877160&sr=1-1-fkmr0&keywords=canton+tea+iron+budd': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B008JVK3AY/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B008JVK3AY&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Canton-Tea-Yellow-Oolong-Refill/dp/B008JVK3HM/ref=sr_1_3?ie=UTF8&qid=1370876093&sr=8-3&keywords=canton+tea+yellow+gold': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B008JVK3HM/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B008JVK3HM&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Canton-Tea-Jasmine-Silver-Needle/dp/B008JVJZB2/ref=sr_1_2?ie=UTF8&qid=1370554715&sr=8-2&keywords=canton+tea+jasmine+SILVER': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B008JVJZB2/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B008JVJZB2&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Canton-Tea-Jasmine-Pearls-50/dp/B008JVKIJ0/ref=sr_1_3?ie=UTF8&qid=1370553576&sr=8-3&keywords=canton+tea+jasmine': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B008JVKIJ0/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B008JVKIJ0&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Canton-Tea-Mao-Jian-Green/dp/B008JVKNE0/ref=sr_1_11?ie=UTF8&qid=1369082709&sr=8-11&keywords=canton+tea+co': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B008JVKNE0/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B008JVKNE0&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Vitalife-Energising-Green-Tea/dp/B0068N5940/ref=sr_1_1?s=grocery&ie=UTF8&qid=1381949081&sr=1-1&keywords=vitalife+energising': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0068N5940/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0068N5940&linkCode=as2&tag=youteamar-21
+';		
+header( 'refresh: 3; url=' . $affiliatelink  );	       
+break;	
+case 'http://www.amazon.co.uk/BODUM-Pavina-2-Piece-Litre-Glass/dp/B003CV000E/ref=sr_1_11?s=kitchen&ie=UTF8&qid=1381950023&sr=1-11&keywords=Bodum+Pavina': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B003CV000E/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B003CV000E&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Vitalife-Cleansing-Tea/dp/B0068MTBS6/ref=sr_1_2?s=grocery&ie=UTF8&qid=1381950532&sr=1-2&keywords=vitalife+cleansing': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0068MTBS6/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0068MTBS6&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Vitalife-Calming-Camomile-Lime-Flower/dp/B0068N0IM8/ref=sr_1_1?s=grocery&ie=UTF8&qid=1381951811&sr=1-1&keywords=vitalife+calming': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0068N0IM8/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0068N0IM8&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Vitalife-Good-Fats-Tea/dp/B0068MZ44Q/ref=sr_1_fkmr1_2?s=grocery&ie=UTF8&qid=1381952873&sr=1-2-fkmr1&keywords=vitalife+feel+good': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0068MZ44Q/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0068MZ44Q&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+// double check on this one :( 	
+case 'http://www.amazon.co.uk/Pure-Organic-High-Altitude-White/dp/B00FWVPA6Q/ref=sr_1_1?s=grocery&ie=UTF8&qid=1381954927&sr=1-1&keywords=vitalife+white': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00FWVPA6Q/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00FWVPA6Q&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Vitalife-Everyday-Black-Tea/dp/B0068MX5XS/ref=sr_1_sc_1?s=grocery&ie=UTF8&qid=1381955977&sr=1-1-spell&keywords=vitalife+eveyday': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0068MX5XS/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0068MX5XS&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Pure-Organic-High-Altitude-Rooibos/dp/B00FWVMFNM/ref=sr_1_3?s=grocery&ie=UTF8&qid=1381957426&sr=1-3&keywords=vitalife+rooibos': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00FWVMFNM/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00FWVMFNM&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Peppermint-Tea-Settling-Stomach-Teabags/dp/B0065OGOC8/ref=sr_1_sc_2?s=grocery&ie=UTF8&qid=1381957996&sr=1-2-spell&keywords=vitalife+stomah': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0065OGOC8/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0065OGOC8&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Pure-Organic-High-Altitude-Green/dp/B00FWVIKKE/ref=sr_1_31?s=grocery&ie=UTF8&qid=1381958427&sr=1-31&keywords=vitalife+green': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00FWVIKKE/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00FWVIKKE&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Yogi-Tea-Choco-Chili-Teabags/dp/B009CTXRGO/ref=sr_1_1?ie=UTF8&qid=1382386120&sr=8-1&keywords=yogi+tea+chilli': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B009CTXRGO/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B009CTXRGO&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Yogi-Tea-Ginger-Hibiscus/dp/B001ILXO8K/ref=pd_sim_grocery_26': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B001ILXO8K/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B001ILXO8K&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Yogi-Tea-Bedtime-Teabags-Total/dp/B009F938X8/ref=sr_1_1?ie=UTF8&qid=1382382735&sr=8-1&keywords=yogi+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B009F938X8/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B009F938X8&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Yogi-Tea-Choco-Aztec-Spice/dp/B0013GAJEM/ref=sr_1_2?ie=UTF8&qid=1382384811&sr=8-2&keywords=yogi+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0013GAJEM/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0013GAJEM&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Yogi-Tea-Rose-total-teabags/dp/B00979LD9C/ref=sr_1_1?ie=UTF8&qid=1382387172&sr=8-1&keywords=yogi+tea+rose': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00979LD9C/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00979LD9C&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Yogi-Tea-Jasmine-Teabags-Total/dp/B009F93GWQ/ref=sr_1_1?ie=UTF8&qid=1382388339&sr=8-1&keywords=yogi+tea+jasmine': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B009F93GWQ/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B009F93GWQ&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Tea-Palace-Organic-Ayurvedic-Collection/dp/B00CQ7HK1C/ref=sr_1_18?s=grocery&ie=UTF8&qid=1382795851&sr=1-18': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00CQ7HK1C/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00CQ7HK1C&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Tea-Palace-Classic-Edition-Vintage/dp/B00CQ7HN9Q/ref=sr_1_21?s=grocery&ie=UTF8&qid=1382795851&sr=1-21': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00CQ7HN9Q/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00CQ7HN9Q&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Tea-Palace-The-Essentials-Collection/dp/B00CQ7HJT0/ref=sr_1_1?s=grocery&ie=UTF8&qid=1382797268&sr=1-1&keywords=tea+palace+essential': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00CQ7HJT0/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00CQ7HJT0&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Tea-Palace-Discovery-Triple-Collection/dp/B00CQ7HNAK/ref=sr_1_1?s=grocery&ie=UTF8&qid=1382799778&sr=1-1&keywords=tea+palace+tea+discovery':$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00CQ7HNAK/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00CQ7HNAK&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.amazon.co.uk/Lulin-Teas-Single-Estate-Oolong/dp/B009S5AT9A/ref=sr_1_1?ie=UTF8&qid=1376687762&sr=8-1&keywords=lulin+teas+black+oolong': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B009S5AT9A/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B009S5AT9A&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Twinings-Lady-Grey-Loose-Pack/dp/B006FGYBXA/ref=sr_1_1?ie=UTF8&qid=1384288475&sr=8-1&keywords=twinings+loose+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B006FGYBXA/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B006FGYBXA&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Twinings-Darjeeling-Loose-Tea-Pack/dp/B006FGZ1PC/ref=sr_1_1?ie=UTF8&qid=1384289186&sr=8-1&keywords=twinings+loose+leaf': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B006FGZ1PC/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B006FGZ1PC&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Twinings-Gingersnap-Peach-Whole-Pyramid/dp/B00BB9NSVW/ref=sr_1_1?ie=UTF8&qid=1384942645&sr=8-1&keywords=twinings+pyramid': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00BB9NSVW/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00BB9NSVW&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Twinings-Mint-Humbug-Whole-Pyramid/dp/B00BB9NTY8/ref=sr_1_2?ie=UTF8&qid=1384942645&sr=8-2&keywords=twinings+pyramid': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00BB9NTY8/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00BB9NTY8&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Twinings-English-Breakfast-Whole-Pyramid/dp/B00BB9NTDY/ref=sr_1_3?ie=UTF8&qid=1384942645&sr=8-3&keywords=twinings+pyramid': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00BB9NTDY/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00BB9NTDY&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Twinings-Honeycomb-Camomile-Whole-Pyramid/dp/B00BB9NSHQ/ref=sr_1_4?ie=UTF8&qid=1384942645&sr=8-4&keywords=twinings+pyramid': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00BB9NSHQ/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00BB9NSHQ&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Twinings-Luxury-Christmas-Green-Hamper/dp/B00GLZ0IGO/ref=sr_1_12?ie=UTF8&qid=1384945889&sr=8-12&keywords=twinings+tea+gift': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00GLZ0IGO/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00GLZ0IGO&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Adagio-Teas-IngenuiTEA-Teapot-470ml/dp/B000FPN8TK/ref=sr_1_1?ie=UTF8&qid=1384972427&sr=8-1&keywords=adagio+teas': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B000FPN8TK/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B000FPN8TK&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Adagio-Teas-Petit-Teapot-500ml/dp/B001A5SHWM/ref=sr_1_2?ie=UTF8&qid=1384972987&sr=8-2&keywords=adagio+teas': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B001A5SHWM/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B001A5SHWM&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Adagio-Teas-Glass-Teapot-Warmer/dp/B001G8XOSA/ref=sr_1_3?ie=UTF8&qid=1384972987&sr=8-3&keywords=adagio+teas': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B001G8XOSA/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B001G8XOSA&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Adagio-Teas-Glass-Teapot-litre/dp/B0052UXV8Q/ref=sr_1_6?ie=UTF8&qid=1384972987&sr=8-6&keywords=adagio+teas': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0052UXV8Q/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0052UXV8Q&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Adagio-Gourmet-Collection-Stunning-Presentation/dp/B00C7NFA80/ref=sr_1_30?ie=UTF8&qid=1384974451&sr=8-30&keywords=adagio+teas': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00C7NFA80/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00C7NFA80&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Adagio-Gourmet-Collection-Stunning-Presentation/dp/B00AD4F47W/ref=sr_1_19?ie=UTF8&qid=1384974451&sr=8-19&keywords=adagio+teas': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00AD4F47W/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00AD4F47W&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Adagio-Gourmet-Collection-Stunning-Presentation/dp/B00APPIGFQ/ref=sr_1_50?ie=UTF8&qid=1384976640&sr=8-50&keywords=adagio+teas': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00APPIGFQ/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00APPIGFQ&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Adagio-Teas-Yixing-Harbin-Teapot/dp/B004XYONDY/ref=sr_1_2?ie=UTF8&qid=1384978263&sr=8-2&keywords=adagio+teas+yixing': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B004XYONDY/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B004XYONDY&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Adagio-Teas-Sangria-Gourmet-Herbal/dp/B001EQ4JTC/ref=sr_1_7?ie=UTF8&qid=1384979282&sr=8-7&keywords=adagio+teas': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B001EQ4JTC/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B001EQ4JTC&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Taylors-Harrogate-China-petal-Loose/dp/B005KBKLEY/ref=sr_1_1?ie=UTF8&qid=1385550726&sr=8-1&keywords=taylors+of+harrogate+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B005KBKLEY/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B005KBKLEY&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Taylors-Harrogate-Breakfast-Bags-Total/dp/B000F3YEWM/ref=sr_1_2?ie=UTF8&qid=1385551620&sr=8-2&keywords=taylors+of+harrogate+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B000F3YEWM/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B000F3YEWM&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Taylors-Harrogate-Jasmine-Green-TRADITIONAL/dp/B000F42EPK/ref=sr_1_1?ie=UTF8&qid=1385552414&sr=8-1&keywords=taylors+of+harrogate+jasmine': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B000F42EPK/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B000F42EPK&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Markys-Gifts-Gadgets-Drinking-Matcha/dp/B00C869UHS/ref=pd_ys_sf_s_340834031_b6_4_p?ie=UTF8&refRID=1DA23GZJ0JTSDKPYXN8M': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00C869UHS/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00C869UHS&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/EMMA-BRIDGEWATER-TEAPOT-SAMPLER-BOXED/dp/B009CZ42J4/ref=sr_1_3?s=kitchen&ie=UTF8&qid=1386100995&sr=1-3&keywords=emma+bridgewater+teapot': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B009CZ42J4/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B009CZ42J4&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Emma-Bridgewater-Black-Toast-Teapot/dp/B00441IGRA/ref=sr_1_23?s=kitchen&ie=UTF8&qid=1386102016&sr=1-23&keywords=emma+bridgewater+black+toast': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00441IGRA/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00441IGRA&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Emma-Bridgewater-Polka-Hearts-Teapot/dp/B008I08CMW/ref=sr_1_6?s=kitchen&ie=UTF8&qid=1386102841&sr=1-6&keywords=emma+bridgewater+mr': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B008I08CMW/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B008I08CMW&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/EMMA-BRIDGEWATER-NEW-TEAPOT-POLKA/dp/B004UEPHVO/ref=sr_1_1?ie=UTF8&qid=1386104051&sr=8-1&keywords=emma+bridgewater+polka+dot+teapot': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B004UEPHVO/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B004UEPHVO&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/EMMA-BRIDGEWATER-TEAPOT-UNION-JACK/dp/B005XZCGJA/ref=sr_1_14?ie=UTF8&qid=1386105546&sr=8-14&keywords=emma+bridgewater+union+jack': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B005XZCGJA/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B005XZCGJA&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Williamson-Fine-Earl-Flowers-Loose/dp/B00CBJXE4C/ref=sr_1_1?ie=UTF8&qid=1386766313&sr=8-1&keywords=williamson+tea+earl+grey+loose': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00CBJXE4C/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00CBJXE4C&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Williamson-Tea-Large-Elephant-Grey/dp/B006KEAO6A/ref=sr_1_3?ie=UTF8&qid=1386766272&sr=8-3&keywords=williamson+tea+earl+grey': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B006KEAO6A/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B006KEAO6A&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Williamson-Large-Elephant-Burnt-Orange/dp/B00CBJX9XS/ref=sr_1_1?ie=UTF8&qid=1386769517&sr=8-1&keywords=williamson+tea+afternoon': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00CBJX9XS/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00CBJX9XS&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Exclusive-Green-Tea-Gift-Set/dp/B00H0I66US/ref=sr_1_35?ie=UTF8&qid=1387134545&sr=8-35&keywords=williamson+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00H0I66US/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00H0I66US&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Pukka-Organic-Peppermint-Licorice-Sachets/dp/B00A4C46U4/ref=sr_1_1?ie=UTF8&qid=1387135720&sr=8-1&keywords=pukka+peppermint+and+licorice': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00A4C46U4/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00A4C46U4&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Pukka-Herbs-Elderberry-Echinacea-Sachet/dp/B00FPHZ0GM/ref=sr_1_3?ie=UTF8&qid=1387137341&sr=8-3&keywords=pukka+elderberry': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00FPHZ0GM/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00FPHZ0GM&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Pukka-Herbs-Ginger-Manuka-Sachet/dp/B00FV9DELW/ref=sr_1_13?ie=UTF8&qid=1387138116&sr=8-13&keywords=pukka+lemon': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00FV9DELW/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00FV9DELW&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Pukka-Organic-Love-Teabags-Total/dp/B00A47Y7IU/ref=sr_1_1?ie=UTF8&qid=1387139093&sr=8-1&keywords=pukka+love': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00A47Y7IU/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00A47Y7IU&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Pukka-Organic-Night-Teabags-Total/dp/B0069RL5TS/ref=sr_1_1?ie=UTF8&qid=1387139807&sr=8-1&keywords=pukka+night': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00A47Y7IU/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00A47Y7IU&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Pukka-Organic-Detox-Teabags-Total/dp/B006DHMKC0/ref=sr_1_2?ie=UTF8&qid=1387141263&sr=8-2&keywords=pukka+detox+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B006DHMKC0/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B006DHMKC0&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Pukka-Herbs-Organic-Licorice-Cinnamon/dp/B003L7XGLE/ref=sr_1_1?ie=UTF8&qid=1387142749&sr=8-1&keywords=pukka+liquorice': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B003L7XGLE/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B003L7XGLE&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Pukka-Organic-Revitalise-Teabags-Total/dp/B0069RL7JQ/ref=sr_1_1?ie=UTF8&qid=1387143661&sr=8-1&keywords=pukka+revitalise+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0069RL7JQ/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0069RL7JQ&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Pukka-Organic-Triple-Teabags-Total/dp/B0069RL700/ref=sr_1_1?ie=UTF8&qid=1388855998&sr=8-1&keywords=pukka+three+mint': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0069RL700/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0069RL700&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Pukka-Organic-Lemongrass-Ginger-Teabags/dp/B006DHMXVI/ref=sr_1_1?ie=UTF8&qid=1388858135&sr=8-1&keywords=pukka+lemongrass+and+ginger+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B006DHMXVI/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B006DHMXVI&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Pukka-Organic-Triple-Ginger-Teabags/dp/B0069RL660/ref=sr_1_1?ie=UTF8&qid=1388858900&sr=8-1&keywords=pukka+three+ginger': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0069RL660/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0069RL660&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;case 'http://www.amazon.co.uk/Pukka-Organic-Chamomile-Teabags-Total/dp/B0069RL8F4/ref=sr_1_1?ie=UTF8&qid=1388861106&sr=8-1&keywords=pukka+chamomile': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0069RL8F4/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0069RL8F4&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Pukka-Organic-Three-Tulsi-Teabags/dp/B006DHMI7W/ref=sr_1_1?ie=UTF8&qid=1388933432&sr=8-1&keywords=pukka+tulsi': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B006DHMI7W/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B006DHMI7W&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Pukka-Organic-Harmonise-Teabags-Total/dp/B006DHMMEQ/ref=sr_1_1?ie=UTF8&qid=1388936582&sr=8-1&keywords=pukka+harmonise': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B006DHMMEQ/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B006DHMMEQ&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Clearspring-Organic-Japanese-Green-Sencha/dp/B00E7W0QG0/ref=sr_1_33?s=grocery&ie=UTF8&qid=1388938661&sr=1-33': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00E7W0QG0/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00E7W0QG0&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Clearspring-Organic-Kukicha-Twig-Loose/dp/B0066645H6/ref=sr_1_9?s=grocery&ie=UTF8&qid=1388940201&sr=1-9&keywords=clearspring+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0066645H6/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0066645H6&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Clearspring-Organic-Japanese-Roasted-Genmaicha/dp/B0013G4D6C/ref=sr_1_26?s=grocery&ie=UTF8&qid=1388941074&sr=1-26&keywords=clearspring+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0013G4D6C/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0013G4D6C&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Clearspring-Organic-Japanese-Sencha-Ginger/dp/B00BSMFDJW/ref=sr_1_1?s=grocery&ie=UTF8&qid=1388942056&sr=1-1&keywords=clearspring+organic+ginger': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00BSMFDJW/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00BSMFDJW&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Clearspring-Organic-Japanese-Sencha-Blend/dp/B00BSM6DBY/ref=sr_1_1?s=grocery&ie=UTF8&qid=1388942664&sr=1-1&keywords=clearspring+mint+green': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00BSM6DBY/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00BSM6DBY&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Clearspring-Organic-Japanese-Oolong-Teabags/dp/B00BSMFAGI/ref=sr_1_1?s=grocery&ie=UTF8&qid=1388943311&sr=1-1&keywords=clearspring+oolong': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00BSMFAGI/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00BSMFAGI&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Clearspring-Organic-Sencha-Matcha-Teabags/dp/B00A3CP4YW/ref=sr_1_4?s=grocery&ie=UTF8&qid=1388944399&sr=1-4&keywords=clearspring+matcha': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00A3CP4YW/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00A3CP4YW&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Yorkshire-Gold-Tea-Bags-Pack/dp/B007M8NJEM/ref=sr_1_4?ie=UTF8&qid=1389200500&sr=8-4&keywords=yorkshire+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B007M8NJEM/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B007M8NJEM&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Yorkshire-Tea-Traditional-1200-Bags/dp/B004QPHXL4/ref=sr_1_1?ie=UTF8&qid=1389199220&sr=8-1&keywords=yorkshire+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B004QPHXL4/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B004QPHXL4&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Yorkshire-Tea-Decaffeinated-Bags-Pack/dp/B007K8EI30/ref=sr_1_5?ie=UTF8&qid=1389200500&sr=8-5&keywords=yorkshire+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B007K8EI30/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B007K8EI30&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Taylors-Harrogate-Yorkshire-Water-Teabags/dp/B0077PTGYW/ref=sr_1_6?ie=UTF8&qid=1389200500&sr=8-6&keywords=yorkshire+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0077PTGYW/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0077PTGYW&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Yorkshire-Gold-Loose-Tea-250g/dp/B003H7KV8Y/ref=sr_1_1?ie=UTF8&qid=1389202058&sr=8-1&keywords=yorkshire+tea+loose': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B003H7KV8Y/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B003H7KV8Y&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Yorkshire-Loose-Leaf-Tea-6x250g/dp/B00E39PGSK/ref=sr_1_3?ie=UTF8&qid=1389207035&sr=8-3&keywords=yorkshire+tea+loose': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B00E39PGSK/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00E39PGSK&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Hampstead-Tea-Organic-Green-Pack/dp/B0069NS5F4/ref=sr_1_6?ie=UTF8&qid=1389785056&sr=8-6&keywords=hampstead+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0069NS5F4/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0069NS5F4&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Hampstead-Organic-Green-Loose-Tea/dp/B003VAK8HG/ref=sr_1_1?ie=UTF8&qid=1389785790&sr=8-1&keywords=hampstead+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B003VAK8HG/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B003VAK8HG&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Hampstead-London-Organic-Valerian-Teabags/dp/B0069NN8BU/ref=sr_1_2/276-0611147-6212116?s=grocery&ie=UTF8&qid=1390210658&sr=1-2&keywords=hampstead+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0069NN8BU/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0069NN8BU&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Hampstead-Tea-Organic-Fennel-Liquorice/dp/B0069NRWVC/ref=sr_1_3/276-0611147-6212116?s=grocery&ie=UTF8&qid=1390210658&sr=1-3&keywords=hampstead+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0069NRWVC/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0069NRWVC&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Hampstead-Tea-Organic-Earl-Grey/dp/B0069NRTTW/ref=sr_1_5?ie=UTF8&qid=1390316691&sr=8-5&keywords=hampstead+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0069NRTTW/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0069NRTTW&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.amazon.co.uk/Hampstead-Tea-Organic-Fairtrade-Breakfast/dp/B0069NRZSC/ref=sr_1_6?ie=UTF8&qid=1390316691&sr=8-6&keywords=hampstead+tea': 
+$affiliatelink = 'http://www.amazon.co.uk/gp/product/B0069NRZSC/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0069NRZSC&linkCode=as2&tag=youteamar-21';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+//case '': 
+//$affiliatelink = '';		
+//header( 'refresh: 3; url=' . $affiliatelink  );	      
+//break;
+
+
+
+
+
+
+
+// Vitalife
+case 'https://www.vitalifehealth.com/teas/functional-teas/Green-Tea': 
+$affiliatelink = 'https://www.vitalifehealth.com/green-tea?tracking=524dd62791df3';		 
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'https://www.vitalifehealth.com/teas/vitalife-energising-tea': 
+$affiliatelink = 'https://www.vitalifehealth.com/teas/vitalife-energising-tea?tracking=524dd62791df3';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.vitalifehealth.com/teas/bodum-pavina-glass-mug-silicone-sleeve': 
+$affiliatelink = 'https://www.vitalifehealth.com/teas/bodum-pavina-glass-mug-silicone-sleeve?tracking=524dd62791df3';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.vitalifehealth.com/teas/vitalife-cleansing-tea': 
+$affiliatelink = 'https://www.vitalifehealth.com/teas/vitalife-cleansing-tea?tracking=524dd62791df3';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.vitalifehealth.com/teas/vitalife-calming-tea': 
+$affiliatelink = 'https://www.vitalifehealth.com/teas/vitalife-calming-tea?tracking=524dd62791df3';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.vitalifehealth.com/teas/vitalife-organic-pure-black-tea-20-bags': 
+$affiliatelink = 'https://www.vitalifehealth.com/teas/vitalife-organic-pure-black-tea-20-bags?tracking=524dd62791df3';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.vitalifehealth.com/teas/vitalife-feel-good-black-tea': 
+$affiliatelink = 'https://www.vitalifehealth.com/teas/vitalife-feel-good-black-tea?tracking=524dd62791df3';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.vitalifehealth.com/teas/vitalife-organic-pure-white-tea-20-bags': 
+$affiliatelink = 'https://www.vitalifehealth.com/teas/vitalife-organic-pure-white-tea-20-bags?tracking=524dd62791df3';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.vitalifehealth.com/teas/glass-mug-380ml': 
+$affiliatelink = 'https://www.vitalifehealth.com/teas/glass-mug-380ml?tracking=524dd62791df3';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.vitalifehealth.com/teas/vitalife-everyday-black-tea': 
+$affiliatelink = 'https://www.vitalifehealth.com/teas/vitalife-everyday-black-tea?tracking=524dd62791df3';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.vitalifehealth.com/teas/vitalife-organic-pure-oolong-tea-20-bags': 
+$affiliatelink = 'https://www.vitalifehealth.com/teas/vitalife-organic-pure-oolong-tea-20-bags?tracking=524dd62791df3';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.vitalifehealth.com/teas/vitalife-organic-pure-rooibos-tea-20-bags': 
+$affiliatelink = 'https://www.vitalifehealth.com/teas/vitalife-organic-pure-rooibos-tea-20-bag?tracking=524dd62791df3s';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.vitalifehealth.com/teas/vitalife-stomach-settling-peppermint-tea': 
+$affiliatelink = 'https://www.vitalifehealth.com/teas/vitalife-stomach-settling-peppermint-tea?tracking=524dd62791df3';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.vitalifehealth.com/teas/vitalife-organic-pure-green-tea-20-bags': 
+$affiliatelink = 'https://www.vitalifehealth.com/teas/vitalife-organic-pure-green-tea-20-bags?tracking=524dd62791df3';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.vitalifehealth.com/teas/vitalife-the-new-you-gift-pack': 
+$affiliatelink = 'https://www.vitalifehealth.com/vitalife-the-new-you-gift-pack?tracking=524dd62791df3';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.vitalifehealth.com/teas/vitalife-gifts': 
+$affiliatelink = 'https://www.vitalifehealth.com/vitalife-gifts?tracking=524dd62791df3';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;case 'https://www.vitalifehealth.com/teas/matcha-tea/Limited-Edition-Yerba-Mate': 
+$affiliatelink = 'https://www.vitalifehealth.com/teas/matcha-tea/Limited-Edition-Yerba-Mate?tracking=524dd62791df3';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.vitalifehealth.com/teas/matcha-tea/Limited-Edition-Kenya-Ivory-Matcha': 
+$affiliatelink = 'https://www.vitalifehealth.com/teas/matcha-tea/Limited-Edition-Kenya-Ivory-Matcha?tracking=524dd62791df3';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.vitalifehealth.com/teas/matcha-tea/Vitalife-Organic-Japanese-Matcha-Powdered-Green-Tea': 
+$affiliatelink = 'https://www.vitalifehealth.com/teas/matcha-tea/Vitalife-Organic-Japanese-Matcha-Powdered-Green-Tea?tracking=524dd62791df3';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.vitalifehealth.com/teas/matcha-tea/Vitalife-Japanese-Matcha-Latte-Mix-100g': 
+$affiliatelink = 'https://www.vitalifehealth.com/teas/matcha-tea/Vitalife-Japanese-Matcha-Latte-Mix-100g?tracking=524dd62791df3';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.vitalifehealth.com/teas/matcha-tea/Vitalife-Japanese-Matcha-80g-Ceremonial-Grade-Kit': 
+$affiliatelink = 'https://www.vitalifehealth.com/teas/matcha-tea/Vitalife-Japanese-Matcha-80g-Ceremonial-Grade-Kit?tracking=524dd62791df3';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.vitalifehealth.com/teas/matcha-tea/Vitalife-Japanese-Matcha-30g-Beginners-Kit': 
+$affiliatelink = 'https://www.vitalifehealth.com/teas/matcha-tea/Vitalife-Japanese-Matcha-30g-Beginners-Kit?tracking=524dd62791df3';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.vitalifehealth.com/teas/matcha-tea/Vitalife-Japanese-Matcha-100g-Cooking-Grade': 
+$affiliatelink = 'https://www.vitalifehealth.com/teas/matcha-tea/Vitalife-Japanese-Matcha-100g-Cooking-Grade?tracking=';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.vitalifehealth.com/teas/matcha-tea/Vitalife-Japanese-Matcha-30g-Ceremonial-Grade': 
+$affiliatelink = 'https://www.vitalifehealth.com/teas/matcha-tea/Vitalife-Japanese-Matcha-30g-Ceremonial-Grade?tracking=524dd62791df3';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.vitalifehealth.com/teas/matcha-tea/Vitalife-Japanese-Matcha-30g-Beginners-Grade': 
+$affiliatelink = 'https://www.vitalifehealth.com/teas/matcha-tea/Vitalife-Japanese-Matcha-30g-Beginners-Grade?tracking=524dd62791df3';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+		/*###############
+		#	Whittards	#
+		###############*/
+case 'http://www.whittard.co.uk/tea/loose_tea/margarets_hope_1st_flush_2013_loose_tea.htm': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=743968368&a=187995&m=3355';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tea/type/artisan-tea/moony_bliss_plum.htm': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=310387581&a=187995&m=3355';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tea/type/puerh-tea/puerh-mandarin-large-leaf-teabags.htm':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3355&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.whittard.co.uk%2Ftea%2Ftype%2Fpuerh-tea%2Fpuerh-mandarin-large-leaf-teabags.htm';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/equipment/tea-equipment/teapots/tea-clipper-fern-tea-for-one.htm': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=615903295&a=187995&m=3355';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tableware/product-type/tableware-teapots/cast-iron-teapots/japanese-tetsubin-hira-cast-iron-green-teapot_2.htm':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3355&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.whittard.co.uk%2Ftableware%2Fproduct-type%2Ftableware-teapots%2Fcast-iron-teapots%2Fjapanese-tetsubin-hira-cast-iron-green-teapot_2.htm';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/equipment/tea-equipment/teapots/golden-carp-teapot.htm': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=753280576&a=187995&m=3355';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/equipment/tea-equipment/teapots/bampton-spot-stripe-tea-for-one.htm': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=752684466&a=187995&m=3355';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/equipment/tea-equipment/teapots/bampton-spot-6-cup-teapot.htm': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=752684464&a=187995&m=3355';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tea/loose_tea_pouches/loose_gunpowder_tea_125g_packet.htm': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=130614131&a=187995&m=3355';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tea/refine/loose-tea-pouches/white-tea-loose-tea-pouch.htm':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3355&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.whittard.co.uk%2Ftea%2Frefine%2Floose-tea-pouches%2Fwhite-tea-loose-tea-pouch.htm';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tea/type/black-tea/orange-pekoe/orange-pekoe-loose-tea-pouch.htm':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3355&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.whittard.co.uk%2Ftea%2Ftype%2Fblack-tea%2Forange-pekoe%2Forange-pekoe-loose-tea-pouch.htm';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tea/loose_tea_pouches/loose_whittard_original_tea_125g_packet.htm': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=130613361&a=187995&m=3355';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tea/loose_tea_pouches/loose_earl_grey_125g_packet.htm': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=130614081&a=187995&m=3355';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tea/loose_tea_pouches/loose_russian_caravan_tea_125g_packet.htm': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=130613381&a=187995&m=3355';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tea/loose_tea_pouches/loose_english_breakfast_tea_125g_packet.htm': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=130613181&a=187995&m=3355';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tea/loose_tea/lu_mu_dan.htm': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=720348914&a=187995&m=3355';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tea/loose_tea/formosa_jade_oolong.htm': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=216842931&a=187995&m=3355';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tea/loose_tea/white_wings.htm': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=723768350&a=187995&m=3355';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tea/loose_tea/darjeeling_arya_pearl.htm': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=723768342&a=187995&m=3355';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tea/loose_tea/pu_erh.htm': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=723768344&a=187995&m=3355';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tea/loose_tea/yunnan_golden_bud.htm': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=720348816&a=187995&m=3355';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tea/type/green-tea/sencha-tea/sencha-loose-tea-pouch.htm':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3355&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.whittard.co.uk%2Ftea%2Ftype%2Fgreen-tea%2Fsencha-tea%2Fsencha-loose-tea-pouch.htm';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tea/loose_tea/bancha_houjicha.htm': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=746280132&a=187995&m=3355';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tea/type/black-tea/darjeeling-tea/darjeeling-happy-valley-second-flush-black-loose-tea.htm':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3355&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.whittard.co.uk%2Ftea%2Ftype%2Fblack-tea%2Fdarjeeling-tea%2Fdarjeeling-happy-valley-second-flush-black-loose-tea.htm';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tea/loose_tea/assam_mangalam_2nd_flush.htm': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=720791622&a=187995&m=3355';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tea/loose_tea/darjeeling_badamtam_1st_flush_2013.htm': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=743968370&a=187995&m=3355';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tea/loose_tea/assam_1st_flush.htm': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=720348886&a=187995&m=3355';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/outlet/all-outlet/teas-of-the-world-gift.htm':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3355&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.whittard.co.uk%2Foutlet%2Fall-outlet%2Fteas-of-the-world-gift.htm';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tea/type/black-tea/english-breakfast-tea/english-breakfast-kilner.htm': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3355&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.whittard.co.uk%2Ftea%2Ftype%2Fblack-tea%2Fenglish-breakfast-tea%2Fenglish-breakfast-kilner.htm';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/gifts/tea-gift/healthy-tea-gift-tin.htm#product-': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3355&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.whittard.co.uk%2Fgifts%2Ftea-gift%2Fhealthy-tea-gift-tin.htm#product-details';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.whittard.co.uk/tableware/product-type/tableware-teapots/fine-bone-china-teapots/alice-in-wonderland-6-cup-teap.htm':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3355&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.whittard.co.uk%2Ftableware%2Fproduct-type%2Ftableware-teapots%2Ffine-bone-china-teapots%2Falice-in-wonderland-6-cup-teap.htm';
+header( 'refresh: 3; url=' . $affiliatelink  );
+break;
+case 'http://www.whittard.co.uk/tableware/product-type/tableware-teapots/cast-iron-teapots/japanese-tetsubin-cast-iron-pink-teapot_1.htm':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3355&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.whittard.co.uk%2Ftableware%2Fproduct-type%2Ftableware-teapots%2Fcast-iron-teapots%2Fjapanese-tetsubin-cast-iron-pink-teapot_1.htm';
+header( 'refresh: 3; url=' . $affiliatelink  );
+break;
+case 'http://www.whittard.co.uk/tableware/product-type/tableware-teapots/cast-iron-teapots/japanese-tetsubin-cast-iron-red-teapot.htm':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3355&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.whittard.co.uk%2Ftableware%2Fproduct-type%2Ftableware-teapots%2Fcast-iron-teapots%2Fjapanese-tetsubin-cast-iron-red-teapot.htm';
+header( 'refresh: 3; url=' . $affiliatelink  );
+break;
+case 'http://www.whittard.co.uk/equipment/tea-equipment/tea-infusers-strainers/stainless-steel-mesh-ball-tea-infuser.htm':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3355&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.whittard.co.uk%2Fequipment%2Ftea-equipment%2Ftea-infusers-strainers%2Fstainless-steel-mesh-ball-tea-infuser.htm';
+header( 'refresh: 3; url=' . $affiliatelink  );
+break;
+case 'http://www.whittard.co.uk/equipment/tea-equipment/all-tea-equipment/tea-heart-infuser.htm':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3355&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.whittard.co.uk%2Fequipment%2Ftea-equipment%2Fall-tea-equipment%2Ftea-heart-infuser.htm';
+header( 'refresh: 3; url=' . $affiliatelink  );
+break;
+case 'http://www.whittard.co.uk/tableware/product-type/tableware-teapots/all-teapots/ascot-floral-white-2-cup-teapot.htm':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3355&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.whittard.co.uk%2Ftableware%2Fproduct-type%2Ftableware-teapots%2Fall-teapots%2Fascot-floral-white-2-cup-teapot.htm';
+header( 'refresh: 3; url=' . $affiliatelink  );
+break;
+
+
+
+		/*###############
+		#	Twinings	#
+		###############*/
+
+case 'http://shop.twinings.co.uk/shop/affiliates/bodum-marcel-tea-press-1-2litre.html': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=182990381&a=187995&m=3578';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://shop.twinings.co.uk/shop/bodum-marcel-tea-press-0-6-litre.html': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=207812081&a=187995&m=3578';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://shop.twinings.co.uk/shop/twinings-tea/green-teas-1/green-tea-selection-box.html': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=164563671&a=187995&m=3578';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://shop.twinings.co.uk/shop/twinings-tea/signature-blends/sweet-berry-fusion-loose-infusion.html': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=729844086&a=187995&m=3578';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://shop.twinings.co.uk/shop/twinings-tea/signature-blends/garden-party-loose-tea.html': 
+$affiliatelink = 'http://www.awin1.com/pclick.php?p=729844074&a=187995&m=3578';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://shop.twinings.co.uk/shop/lady-grey-125g-loose-tea.html': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3578&awinaffid=187995&clickref=&p=http%3A%2F%2Fshop.twinings.co.uk%2Fshop%2Flady-grey-125g-loose-tea.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://shop.twinings.co.uk/shop/darjeeling-loose-tea.': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3578&awinaffid=187995&clickref=&p=http%3A%2F%2Fshop.twinings.co.uk%2Fshop%2Fdarjeeling-loose-tea.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://shop.twinings.co.uk/shop/tea-gifts-1/english-china/twinings-6-cup-teapot.': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3578&awinaffid=187995&clickref=&p=http%3A%2F%2Fshop.twinings.co.uk%2Fshop%2Ftea-gifts-1%2Fenglish-china%2Ftwinings-6-cup-teapot.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://shop.twinings.co.uk/shop/alison-appleton-emperors-bird-tea-set.html': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3578&awinaffid=187995&clickref=&p=http%3A%2F%2Fshop.twinings.co.uk%2Fshop%2Falison-appleton-emperors-bird-tea-set.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://shop.twinings.co.uk/shop/whole-leaf-silky-pyramids-gingersnap-peach-fruit-herbal-tea-1667.html': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3578&awinaffid=187995&clickref=&p=http%3A%2F%2Fshop.twinings.co.uk%2Fshop%2Fwhole-leaf-silky-pyramids-gingersnap-peach-fruit-herbal-tea-1667.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://shop.twinings.co.uk/shop/whole-leaf-silky-pyramids-mint-humbug-mint-herbal-tea.html': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3578&awinaffid=187995&clickref=&p=http%3A%2F%2Fshop.twinings.co.uk%2Fshop%2Fwhole-leaf-silky-pyramids-mint-humbug-mint-herbal-tea.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.twinings.co.uk/tea/black-tea/english-breakfast-whole-leaf-tea-15-pyramid-bags':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3578&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.twinings.co.uk%2Ftea%2Fblack-tea%2Fenglish-breakfast-whole-leaf-tea-15-pyramid-bags';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://shop.twinings.co.uk/shop/whole-bud-silky-pyramids-honeycomb-camomile.html': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3578&awinaffid=187995&clickref=&p=http%3A%2F%2Fshop.twinings.co.uk%2Fshop%2Fwhole-bud-silky-pyramids-honeycomb-camomile.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.twinings.co.uk/teaware/serving-accessories/tea-timer':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3578&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.twinings.co.uk%2Fteaware%2Fserving-accessories%2Ftea-timer';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case '': 
+$affiliatelink = '';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+
+
+		/*###############
+		#	LuLin Teas	#
+		###############*/
+		
+case 'http://www.lulin-teas.com/tea/loose-leaf/white/silver-needle.html':
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/white/silver-needle.html';
+header( 'refresh: 3; url=' . $affiliatelink  );		
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/green/huang-shan-mao-feng.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/green/huang-shan-mao-feng.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/green/jasmine-dragon-pearls-green.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/green/jasmine-dragon-pearls-green.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/green/long-jing-dragonwell.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/green/long-jing-dragonwell.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/green/long-jing-dragonwell-tea-cubed.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/green/long-jing-dragonwell-tea-cubed.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/green/an-ji-bai-cha.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/green/an-ji-bai-cha.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/white/yellow-tips.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/white/yellow-tips.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/white/white-puerh.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/white/white-puerh.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/white/white-peony.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/white/white-peony.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/white/jasmine-silver-needle.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/white/jasmine-silver-needle.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea-gift/chinese-tea-exploration-box.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea-gift/chinese-tea-exploration-box.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/puerh/puerh-teacake-2011-ripe.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/puerh/puerh-teacake-2011-ripe.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/puerh/puerh-teacake-2011-green.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/puerh/puerh-teacake-2011-green.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea-gift/green-tea-exploration-box.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea-gift/green-tea-exploration-box.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/blooming/sunshine-rainbow.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/blooming/sunshine-rainbow.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/blooming/butterfly-dance.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/blooming/butterfly-dance.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/blooming/fall-of-fragrance.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/blooming/fall-of-fragrance.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/blooming/flower-fairy.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/blooming/flower-fairy.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/blooming/flower-whisper.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/blooming/flower-whisper.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/blooming/golden-blossom.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/blooming/golden-blossom.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/blooming/oriental-beauty.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/blooming/oriental-beauty.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/blooming/seven-fairies.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/blooming/seven-fairies.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/oolong/ginseng-oolong-tea-cubed.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/oolong/ginseng-oolong-tea-cubed.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/oolong/ginseng-power.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/oolong/ginseng-power.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/oolong/black-oolong.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/oolong/black-oolong.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/green/anji-bai-pian.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/green/anji-bai-pian.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/green/bi-luo-chun.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/green/bi-luo-chun.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.lulin-teas.com/tea/loose-leaf/green/gun-powder.html': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=5517&programmeID=15275&mediaID=0&tracking=&url=http://www.lulin-teas.com/tea/loose-leaf/green/gun-powder.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+
+
+		/*#######################
+		#	Notonthehighstreet	#
+		#######################*/
+case 'http://www.notonthehighstreet.com/teagiftcompany/product/it-s-a-girl-a-new-brew-for-new-mums-and-dads': 
+$affiliatelink = 'http://click.linksynergy.com/link?id=OhbchkUgdS4&offerid=201325.17384&type=2&murl=http%3A%2F%2Fwww.notonthehighstreet.com%2Fteagiftcompany%2Fproduct%2Fit-s-a-girl-a-new-brew-for-new-mums-and-dads';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.notonthehighstreet.com/thekandulateacompany/product/earl-grey-tea-time-gift-set': 
+$affiliatelink = 'http://click.linksynergy.com/link?id=OhbchkUgdS4&offerid=201325.14477&type=2&murl=http%3A%2F%2Fwww.notonthehighstreet.com%2Fthekandulateacompany%2Fproduct%2Fearl-grey-tea-time-gift-set';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.notonthehighstreet.com/teagiftcompany/product/a-strong-tea-for-a-strongman': 
+$affiliatelink = 'http://click.linksynergy.com/link?id=OhbchkUgdS4&offerid=201325.3495&type=2&murl=http%3A%2F%2Fwww.notonthehighstreet.com%2Fteagiftcompany%2Fproduct%2Fa-strong-tea-for-a-strongman';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.notonthehighstreet.com/teagiftcompany/product/housewarming-tea-gift-set': 
+$affiliatelink = 'http://click.linksynergy.com/link?id=OhbchkUgdS4&offerid=201325.14900&type=2&murl=http%3A%2F%2Fwww.notonthehighstreet.com%2Fteagiftcompany%2Fproduct%2Fhousewarming-tea-gift-set';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.notonthehighstreet.com/alisonappleton/product/emperor-s-bird-tea-set': 
+$affiliatelink = 'http://click.linksynergy.com/fs-bin/click?id=OhbchkUgdS4&subid=&offerid=201325.1&type=10&tmpid=5953&RD_PARM1=http%253A%252F%252Fwww.notonthehighstreet.com%252Falisonappleton%252Fproduct%252Femperor-s-bird-tea-set';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.notonthehighstreet.com/alisonappleton/product/golden-carp-teapot': 
+$affiliatelink = 'http://click.linksynergy.com/fs-bin/click?id=OhbchkUgdS4&subid=&offerid=201325.1&type=10&tmpid=5953&RD_PARM1=http%253A%252F%252Fwww.notonthehighstreet.com%252Falisonappleton%252Fproduct%252Fgolden-carp-teapot';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.notonthehighstreet.com/theexoticteapot/product/ceramic-chinese-teapot': 
+$affiliatelink = 'http://click.linksynergy.com/fs-bin/click?id=OhbchkUgdS4&subid=&offerid=201325.1&type=10&tmpid=5953&RD_PARM1=http%253A%252F%252Fwww.notonthehighstreet.com%252Ftheexoticteapot%252Fproduct%252Fceramic-chinese-teapot';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.notonthehighstreet.com/carolinemcgrath/product/tonfisk_warm_designer_teapot': 
+$affiliatelink = 'http://click.linksynergy.com/fs-bin/click?id=OhbchkUgdS4&subid=&offerid=201325.1&type=10&tmpid=5953&RD_PARM1=http%253A%252F%252Fwww.notonthehighstreet.com%252Fcarolinemcgrath%252Fproduct%252Ftonfisk_warm_designer_teapot';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.notonthehighstreet.com/adagioteas/product/luxury-concert-teapot': 
+$affiliatelink = 'http://click.linksynergy.com/fs-bin/click?id=OhbchkUgdS4&subid=&offerid=201325.1&type=10&tmpid=5953&RD_PARM1=http%253A%252F%252Fwww.notonthehighstreet.com%252Fadagioteas%252Fproduct%252Fluxury-concert-teapot';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.notonthehighstreet.com/adagioteas/product/yunnan-pu-erh-gold-tea': 
+$affiliatelink = 'http://click.linksynergy.com/fs-bin/click?id=OhbchkUgdS4&subid=&offerid=201325.1&type=10&tmpid=5953&RD_PARM1=http%253A%252F%252Fwww.notonthehighstreet.com%252Fadagioteas%252Fproduct%252Fyunnan-pu-erh-gold-tea';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.notonthehighstreet.com/adagioteas/product/yunnan-golden-curls-tea': 
+$affiliatelink = 'http://click.linksynergy.com/fs-bin/click?id=OhbchkUgdS4&subid=&offerid=201325.1&type=10&tmpid=5953&RD_PARM1=http%253A%252F%252Fwww.notonthehighstreet.com%252Fadagioteas%252Fproduct%252Fyunnan-golden-curls-tea';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.notonthehighstreet.com/adagioteas/product/loose-leaf-tea-infuser': 
+$affiliatelink = 'http://click.linksynergy.com/fs-bin/click?id=OhbchkUgdS4&subid=&offerid=201325.1&type=10&tmpid=5953&RD_PARM1=http%253A%252F%252Fwww.notonthehighstreet.com%252Fadagioteas%252Fproduct%252Floose-leaf-tea-infuser';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.notonthehighstreet.com/adagioteas/product/artisan-comfort-tea-selection': 
+$affiliatelink = 'http://click.linksynergy.com/fs-bin/click?id=OhbchkUgdS4&subid=&offerid=201325.1&type=10&tmpid=5953&RD_PARM1=http%253A%252F%252Fwww.notonthehighstreet.com%252Fadagioteas%252Fproduct%252Fartisan-comfort-tea-selection';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.notonthehighstreet.com/adagioteas/product/sweet-medley-teabag-collection': 
+$affiliatelink = 'http://click.linksynergy.com/fs-bin/click?id=OhbchkUgdS4&subid=&offerid=201325.1&type=10&tmpid=5953&RD_PARM1=http%253A%252F%252Fwww.notonthehighstreet.com%252Fadagioteas%252Fproduct%252Fsweet-medley-teabag-collection';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.notonthehighstreet.com/adagioteas/product/holiday-cheer-teabag-selection': 
+$affiliatelink = 'http://click.linksynergy.com/fs-bin/click?id=OhbchkUgdS4&subid=&offerid=201325.1&type=10&tmpid=5953&RD_PARM1=http%253A%252F%252Fwww.notonthehighstreet.com%252Fadagioteas%252Fproduct%252Fholiday-cheer-teabag-selection';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.notonthehighstreet.com/adagioteas/product/purple-clay-yixing-teapot': 
+$affiliatelink = 'http://click.linksynergy.com/fs-bin/click?id=OhbchkUgdS4&subid=&offerid=201325.1&type=10&tmpid=5953&RD_PARM1=http%253A%252F%252Fwww.notonthehighstreet.com%252Fadagioteas%252Fproduct%252Fpurple-clay-yixing-teapot';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+
+
+		/*###############
+		#	Teaworld	#
+		################*/
+/*
+case 'https://www.teaworld.co.uk/teasDetail.php?product=1413?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=1413?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=1401?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=1401?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=9392?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=9392?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=2989?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=2989?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=9332?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=9332?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=113?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=113?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=112?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=112?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=TP23?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=TP23?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=TP22?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=TP22?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=TP21?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=TP21?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=TP19?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=TP19?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=TP18?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=TP18?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=TP17?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=TP17?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=TP16?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=TP16?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=TP08?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=TP08?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=TP14?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=TP14?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=TP13?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=TP13?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=TP12?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=TP12?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=TP11?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=TP11?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=TP10?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=TP10?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=TP15?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=TP15?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=TP05?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=TP05?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=TP24?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=TP24?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=TP04?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=TP04?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=TP03?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=TP03?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=TP01?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=TP01?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=TP02?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=TP02?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=U1024?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=&url=https://www.teaworld.co.uk/teasDetail.php?product=U1024?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.teaworld.co.uk/teasDetail.php?product=P541R4?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=teaworld&url=http%3a%2f%2fwww.teaworld.co.uk%2fteasDetail.php%3fproduct%3dP541R4%3fbrand%3d0%3ftea%3d0%3fblend%3d0%3fshop%3dY%3fpopular%3dN%3fpackage%3d0%3fband%3d0%3fstart%3d0%3fend%3d9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.teaworld.co.uk/teasDetail.php?product=P547R4?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=teaworld&url=http%3a%2f%2fwww.teaworld.co.uk%2fteasDetail.php%3fproduct%3dP547R4%3fbrand%3d0%3ftea%3d0%3fblend%3d0%3fshop%3dY%3fpopular%3dN%3fpackage%3d0%3fband%3d0%3fstart%3d0%3fend%3d9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.teaworld.co.uk/teasDetail.php?product=P549R4?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=teaworld&url=http%3a%2f%2fwww.teaworld.co.uk%2fteasDetail.php%3fproduct%3dP549R4%3fbrand%3d0%3ftea%3d0%3fblend%3d0%3fshop%3dY%3fpopular%3dN%3fpackage%3d0%3fband%3d0%3fstart%3d0%3fend%3d9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.teaworld.co.uk/teasDetail.php?product=P505?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=teaworld&url=http%3a%2f%2fwww.teaworld.co.uk%2fteasDetail.php%3fproduct%3dP505%3fbrand%3d0%3ftea%3d0%3fblend%3d0%3fshop%3dY%3fpopular%3dN%3fpackage%3d0%3fband%3d0%3fstart%3d0%3fend%3d9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.teaworld.co.uk/teasDetail.php?product=P527R6?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=teaworld&url=http%3a%2f%2fwww.teaworld.co.uk%2fteasDetail.php%3fproduct%3dP527R6%3fbrand%3d0%3ftea%3d0%3fblend%3d0%3fshop%3dY%3fpopular%3dN%3fpackage%3d0%3fband%3d0%3fstart%3d0%3fend%3d9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.teaworld.co.uk/teasDetail.php?product=P548R4?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=teaworld&url=http%3a%2f%2fwww.teaworld.co.uk%2fteasDetail.php%3fproduct%3dP548R4%3fbrand%3d0%3ftea%3d0%3fblend%3d0%3fshop%3dY%3fpopular%3dN%3fpackage%3d0%3fband%3d0%3fstart%3d0%3fend%3d9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.teaworld.co.uk/teasDetail.php?product=P506?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=teaworld&url=http%3a%2f%2fwww.teaworld.co.uk%2fteasDetail.php%3fproduct%3dP506%3fbrand%3d0%3ftea%3d0%3fblend%3d0%3fshop%3dY%3fpopular%3dN%3fpackage%3d0%3fband%3d0%3fstart%3d0%3fend%3d9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.teaworld.co.uk/teasDetail.php?product=P534R4?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=teaworld&url=http%3a%2f%2fwww.teaworld.co.uk%2fteasDetail.php%3fproduct%3dP534R4%3fbrand%3d0%3ftea%3d0%3fblend%3d0%3fshop%3dY%3fpopular%3dN%3fpackage%3d0%3fband%3d0%3fstart%3d0%3fend%3d9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.teaworld.co.uk/teasDetail.php?product=P501?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=teaworld&url=http%3a%2f%2fwww.teaworld.co.uk%2fteasDetail.php%3fproduct%3dP501%3fbrand%3d0%3ftea%3d0%3fblend%3d0%3fshop%3dY%3fpopular%3dN%3fpackage%3d0%3fband%3d0%3fstart%3d0%3fend%3d9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=P525R6?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=teaworld&url=https%3a%2f%2fwww.teaworld.co.uk%2fteasDetail.php%3fproduct%3dP525R6%3fbrand%3d0%3ftea%3d0%3fblend%3d0%3fshop%3dY%3fpopular%3dN%3fpackage%3d0%3fband%3d0%3fstart%3d0%3fend%3d9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=P533R4?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=teaworld&url=https%3a%2f%2fwww.teaworld.co.uk%2fteasDetail.php%3fproduct%3dP533R4%3fbrand%3d0%3ftea%3d0%3fblend%3d0%3fshop%3dY%3fpopular%3dN%3fpackage%3d0%3fband%3d0%3fstart%3d0%3fend%3d9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=P526R6?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=teaworld&url=https%3a%2f%2fwww.teaworld.co.uk%2fteasDetail.php%3fproduct%3dP526R6%3fbrand%3d0%3ftea%3d0%3fblend%3d0%3fshop%3dY%3fpopular%3dN%3fpackage%3d0%3fband%3d0%3fstart%3d0%3fend%3d9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=P509?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=teaworld&url=https%3a%2f%2fwww.teaworld.co.uk%2fteasDetail.php%3fproduct%3dP509%3fbrand%3d0%3ftea%3d0%3fblend%3d0%3fshop%3dY%3fpopular%3dN%3fpackage%3d0%3fband%3d0%3fstart%3d0%3fend%3d9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://www.teaworld.co.uk/teasDetail.php?product=P503?brand=0?tea=0?blend=0?shop=Y?popular=N?package=0?band=0?start=0?end=9': 
+$affiliatelink = 'http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=321230&merchantID=1991&programmeID=5647&mediaID=0&tracking=teaworld&url=https%3a%2f%2fwww.teaworld.co.uk%2fteasDetail.php%3fproduct%3dP503%3fbrand%3d0%3ftea%3d0%3fblend%3d0%3fshop%3dY%3fpopular%3dN%3fpackage%3d0%3fband%3d0%3fstart%3d0%3fend%3d9';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+    */
+
+
+
+
+//##############################################
+// 	Goodness Direct
+//##############################################
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/762370_Yogi_Organic_Jasmine_Tea_17b.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/762370_Yogi_Organic_Jasmine_Tea_17b.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/762392_Yogi_Organic_Rose_Tea_17b.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/762392_Yogi_Organic_Rose_Tea_17b.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/758404_Yogi_Choco_Chilli_Aztec_Spice_Tea_17b.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/758404_Yogi_Choco_Chilli_Aztec_Spice_Tea_17b.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/758632_Yogi_Ginger_Hibiscus_Spice_Tea_15_bags.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/758632_Yogi_Ginger_Hibiscus_Spice_Tea_15_bags.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/724596_Twinings_Selection_Box_Green_Tea_Mix_25_Individually_Wrapped_Sachets.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/724596_Twinings_Selection_Box_Green_Tea_Mix_25_Individually_Wrapped_Sachets.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/663748_Pukka_Peppermint___Licorice_Tea_20b.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/663748_Pukka_Peppermint___Licorice_Tea_20b.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/663414_Pukka_Love_Tea_20b.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/663414_Pukka_Love_Tea_20b.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/663469_Pukka_Night_Time_Tea_20b.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/663469_Pukka_Night_Time_Tea_20b.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/663927_Pukka_Three_Cinnamon_Tea_20b.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/663927_Pukka_Three_Cinnamon_Tea_20b.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/663447_Pukka_Detox_Tea_20b.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/663447_Pukka_Detox_Tea_20b.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/662915_Pukka_Licorice___Cinnamon_Tea_20b.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/662915_Pukka_Licorice___Cinnamon_Tea_20b.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/663526_Pukka_Revitalise_Tea_20b.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/663526_Pukka_Revitalise_Tea_20b.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/663559_Pukka_Triple_Mint_Tea_20b.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/663559_Pukka_Triple_Mint_Tea_20b.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/662904_Pukka_Lemongrass___Ginger_Tea_20b.html
+http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/662904_Pukka_Lemongrass___Ginger_Tea_20b.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/662904_Pukka_Lemongrass___Ginger_Tea_20b.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/663548_Pukka_Triple_Ginger_Tea_20b.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/663548_Pukka_Triple_Ginger_Tea_20b.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/662897_Pukka_Golden_Chamomile_Tea_20b.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/662897_Pukka_Golden_Chamomile_Tea_20b.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/663582_Pukka_Three_Tulsi_Tea_20b.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/663582_Pukka_Three_Tulsi_Tea_20b.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/663458_Pukka_Harmonise_Tea_20b.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/663458_Pukka_Harmonise_Tea_20b.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/663504_Pukka_Relax_Tea_20b.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/663504_Pukka_Relax_Tea_20b.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/403793_Clearspring_Nagata_Organic_Sencha_Loose_Green_Tea__125g.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/403793_Clearspring_Nagata_Organic_Sencha_Loose_Green_Tea__125g.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/402705_Clearspring_Organic_Kukicha_Twig_Loose_Tea__125g.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/402705_Clearspring_Organic_Kukicha_Twig_Loose_Tea__125g.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/406946_Clearspring_Organic_Genmaicha__Green_Tea_With_Rice__125g.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/406946_Clearspring_Organic_Genmaicha__Green_Tea_With_Rice__125g.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/515584_Clearspring_Organic_Ginger_Green_Tea_20b.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/515584_Clearspring_Organic_Ginger_Green_Tea_20b.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/515775_Clearspring_Organic_Mint_Green_Tea_40g.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/515775_Clearspring_Organic_Mint_Green_Tea_40g.html';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/515607_Clearspring_Organic_Oolong_Tea_20b.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/515607_Clearspring_Organic_Oolong_Tea_20b.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.goodnessdirect.co.uk/cgi-local/frameset/detail/515618_Clearspring_Organic_Sencha_Matcha_Tea_20b.html': 
+$affiliatelink = 'http://www.goodnessdirect.co.uk/cgi-local/affiliate/HTEA/detail/515618_Clearspring_Organic_Sencha_Matcha_Tea_20b.html';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+
+
+
+		/*###############
+		#	waitrose	#
+		###############*/
+
+
+case 'http://www.waitrose.com/shop/DisplayProductFlyout?productId=107197#.UozfUcTxpQs': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3691&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.waitrose.com%2Fshop%2FDisplayProductFlyout%3FproductId%3D107197#.UozfUcTxpQs';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.waitrose.com/shop/ProductView-10317-10001-80926-Teapigs+peppermint+leaves+15+tea+bags': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3691&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.waitrose.com%2Fshop%2FProductView-10317-10001-80926-Teapigs%2Bpeppermint%2Bleaves%2B15%2Btea%2Bbags';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.waitrose.com/shop/ProductView-10317-10001-104772-Teapigs+chamomile+flowers+15+tea+bags': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3691&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.waitrose.com%2Fshop%2FProductView-10317-10001-104772-Teapigs%2Bchamomile%2Bflowers%2B15%2Btea%';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.waitrose.com/webapp/wcs/stores/servlet/ProductView-10317-10001-110837-Teapigs+silver+tips+white+tea+15+tea+bags+(37.5g)?storeId=10317': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3691&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.waitrose.com%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2FProductView-10317-10001-110837-Teapigs%2Bsilver%2Btips%2Bwhite%2Btea%2B15%2Btea%2Bbags%2B(37.5g)%3FstoreId%3D10317';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.waitrose.com/shop/DisplayProductFlyout?productId=75433#.Uozg3cTxpQs': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3691&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.waitrose.com%2Fshop%2FDisplayProductFlyout%3FproductId%3D75433#.Uozg3cTxpQs';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.waitrose.com/shop/DisplayProductFlyout?productId=91061#.UozijMTxpQs': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3691&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.waitrose.com%2Fshop%2FDisplayProductFlyout%3FproductId%3D91061#.UozijMTxpQs';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.waitrose.com/shop/DisplayProductFlyout?productId=229183#.UozjkMTxpQs': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3691&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.waitrose.com%2Fshop%2FDisplayProductFlyout%3FproductId%3D229183#.UozjkMTxpQs';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.waitrose.com/shop/DisplayProductFlyout?productId=302701#.Uozl3cTxpQs': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3691&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.waitrose.com%2Fshop%2FDisplayProductFlyout%3FproductId%3D302701#.';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.waitrose.com/shop/DisplayProductFlyout?productId=146861#.Uoz5PcTxpQs': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3691&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.waitrose.com%2Fshop%2FDisplayProductFlyout%3FproductId%3D146861#.Uoz5PcTxpQs';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.waitrose.com/shop/DisplayProductFlyout?productId=146634#.UqhijvRdUnc': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3691&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.waitrose.com%2Fshop%2FDisplayProductFlyout%3FproductId%3D146634%23.UqhijvRdUnc';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.waitrose.com/shop/DisplayProductFlyout?productId=146348#.UqhspPRdUnc': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3691&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.waitrose.com%2Fshop%2FDisplayProductFlyout%3FproductId%3D146348%23.UqhspPRdUnc';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.waitrose.com/shop/DisplayProductFlyout?productId=302425#.Uq3-jPRdUnc': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=3691&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.waitrose.com%2Fshop%2FDisplayProductFlyout%3FproductId%3D302425%23.Uq3-jPRdUnc';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+
+
+
+		/*#######################
+		#	Fortnum and Mason	#
+		#######################*/
+		
+		
+case 'http://www.fortnumandmason.com/p-9392-top-hat-tea-strainer.aspx': 
+$affiliatelink = 'http://click.linksynergy.com/link?id=OhbchkUgdS4&offerid=212232.110083933513023102407095685225&type=2&murl=http%3A%2F%2Fwww.fortnumandmason.com%2Fproduct%2Ftop-hat-tea-strainer%2C9907.aspx';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.fortnumandmason.com/showproduct.aspx?ProductID=6529&SEName=porcelain-tea-pot-high-tea-teapot': 
+$affiliatelink = 'http://click.linksynergy.com/fs-bin/click?id=OhbchkUgdS4&subid=&offerid=212232.1&type=10&tmpid=6950&RD_PARM1=http%3A%2F%2Fwww.fortnumandmason.com%2Fshowproduct.aspx%3FProductID%3D6529%2526SEName%3Dporcelain-tea-pot-high-tea-teapot';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;		
+case 'http://www.fortnumandmason.com/p-9657-phoenix-mountain-dancong-baiye.aspx': 
+$affiliatelink = 'http://click.linksynergy.com/fs-bin/click?id=OhbchkUgdS4&subid=&offerid=212232.1&type=10&tmpid=6951&RD_PARM1=http%3A%2F%2Fwww.fortnumandmason.com%2Fp-9657-phoenix-mountain-dancong-baiye.aspx';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.fortnumandmason.com/p-9656-wudong-dancong-oolong-almond-variety.aspx': 
+$affiliatelink = 'http://click.linksynergy.com/fs-bin/click?id=OhbchkUgdS4&subid=&offerid=212232.1&type=10&tmpid=6951&RD_PARM1=http%3A%2F%2Fwww.fortnumandmason.com%2Fp-9656-wudong-dancong-oolong-almond-variety.aspx';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.fortnumandmason.com/p-4933-tregothnan-tea-tregothnan-cornish-tea.aspx': 
+$affiliatelink = 'http://click.linksynergy.com/fs-bin/click?id=OhbchkUgdS4&subid=&offerid=212232.1&type=10&tmpid=6951&RD_PARM1=http%3A%2F%2Fwww.fortnumandmason.com%2Fp-4933-tregothnan-tea-tregothnan-cornish-tea.aspx';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.fortnumandmason.com/p-5031-flowering-tea-gift-flowering-tea-gift-box.aspx': 
+$affiliatelink = 'http://click.linksynergy.com/fs-bin/click?id=OhbchkUgdS4&subid=&offerid=212232.1&type=10&tmpid=6951&RD_PARM1=http%3A%2F%2Fwww.fortnumandmason.com%2Fp-5031-flowering-tea-gift-flowering-tea-gift-box.aspx';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.fortnumandmason.com/p-8952-celebration-tea-assam-tea.aspx': 
+$affiliatelink = 'http://click.linksynergy.com/fs-bin/click?id=OhbchkUgdS4&subid=&offerid=212232.1&type=10&tmpid=6951&RD_PARM1=http%3A%2F%2Fwww.fortnumandmason.com%2Fp-8952-celebration-tea-assam-tea.aspx';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.fortnumandmason.com/p-8199-empire-tea-blend-ceylon-tea.aspx': 
+$affiliatelink = 'http://click.linksynergy.com/fs-bin/click?id=OhbchkUgdS4&subid=&offerid=212232.1&type=10&tmpid=6951&RD_PARM1=http%3A%2F%2Fwww.fortnumandmason.com%2Fp-8199-empire-tea-blend-ceylon-tea.aspx';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.fortnumandmason.com/p-8186-old-silver-teapot-blend-tea-decorative-caddy.aspx': 
+$affiliatelink = 'http://click.linksynergy.com/fs-bin/click?id=OhbchkUgdS4&subid=&offerid=212232.1&type=10&tmpid=6951&RD_PARM1=http%3A%2F%2Fwww.fortnumandmason.com%2Fp-8186-old-silver-teapot-blend-tea-decorative-caddy.aspx';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.fortnumandmason.com/p-8159-christmas-tea-caddy.aspx': 
+$affiliatelink = 'http://click.linksynergy.com/fs-bin/click?id=OhbchkUgdS4&subid=&offerid=212232.1&type=10&tmpid=6951&RD_PARM1=http%3A%2F%2Fwww.fortnumandmason.com%2Fp-8159-christmas-tea-caddy.aspx';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.fortnumandmason.com/p-5248-wooden-tea-gift-box-tea-gifts.aspx': 
+$affiliatelink = 'http://click.linksynergy.com/fs-bin/click?id=OhbchkUgdS4&subid=&offerid=212232.1&type=10&tmpid=6951&RD_PARM1=http%3A%2F%2Fwww.fortnumandmason.com%2Fp-5248-wooden-tea-gift-box-tea-gifts.aspx';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+	
+		/*###############
+		#	Debenhams	#
+		###############*/
+		
+		
+case 'http://www.debenhams.com/webapp/wcs/stores/servlet/prod_10701_10001_311100140899_-1': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=2194&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.debenhams.com%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2Fprod_10701_10001_311100140899_-1';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;		
+case 'http://www.debenhams.com/webapp/wcs/stores/servlet/prod_10701_10001_311100143699_-1': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=2194&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.debenhams.com%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2Fprod_10701_10001_311100143699_-1';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;	
+case 'http://www.debenhams.com/webapp/wcs/stores/servlet/prod_10701_10001_311100131099_-1': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=2194&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.debenhams.com%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2Fprod_10701_10001_311100131099_-1';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;		
+		
+
+		/*###############
+		#	Johnlewis	#
+		###############*/
+
+case 'http://www.johnlewis.com/bodum-eileen-tea-press-1-5l/p450061': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1203&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.johnlewis.com%2Fbodum-eileen-tea-press-1-5l%2Fp450061';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.johnlewis.com/bodum-assam-teapot-1l/p230398277?kpid=230398277&s_kenid=7dad1ad9-4bc7-64a9-6a73-000068d2311d&s_kwcid=ppc_pla&tmad=c&tmcampid=73': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1203&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.johnlewis.com%2Fbodum-assam-teapot-1l%2Fp230398277%3Fkpid%3D230398277%26s_kenid%3D7dad1ad9-4bc7-64a9-6a73-000068d2311d%26s_kwcid%3Dppc_pla%26tmad%3Dc%26tmcampid%3D73';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.johnlewis.com/lov-sencha-tea-in-tin-100g/p231645986': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1203&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.johnlewis.com%2Flov-sencha-tea-in-tin-100g%2Fp231645986';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.johnlewis.com/lov-ginger-lemon-tea-in-tin-100g/p231645984': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1203&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.johnlewis.com%2Flov-ginger-lemon-tea-in-tin-100g%2Fp231645984';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.johnlewis.com/lov-jasmine-tea-in-tin-100g/p231645985': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1203&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.johnlewis.com%2Flov-jasmine-tea-in-tin-100g%2Fp231645985';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.johnlewis.com/lov-organic-lov-is-zen-herbal-tea-in-tin-100g/p231482827': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1203&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.johnlewis.com%2Flov-organic-lov-is-zen-herbal-tea-in-tin-100g%2Fp231482827';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.johnlewis.com/lov-organic-earl-grey-tea-in-tin-100g/p231482823': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1203&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.johnlewis.com%2Flov-organic-earl-grey-tea-in-tin-100g%2Fp231482823';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.johnlewis.com/lov-organic-rose-tea-in-tin-100g/p231482824': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1203&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.johnlewis.com%2Flov-organic-rose-tea-in-tin-100g%2Fp231482824';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.johnlewis.com/kusmi-tea-the-collection-tea-sampler-gift-set/p231490057': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1203&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.johnlewis.com%2Fkusmi-tea-%5Cthe-collection%5C-tea-sampler-gift-set%2Fp231490057';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.johnlewis.com/kusmi-tea-green-tea-selection-125g/p231490047': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1203&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.johnlewis.com%2Fkusmi-tea-green-tea-selection-125g%2Fp231490047';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.johnlewis.com/kusmi-tea-english-breakfast-tea-in-tin-125g/p231490053': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1203&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.johnlewis.com%2Fkusmi-tea-english-breakfast-tea-in-tin-125g%2Fp231490053';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.johnlewis.com/kusmi-be-cool-tea-100g/p231753259': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1203&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.johnlewis.com%2Fkusmi-be-cool-tea-100g%2Fp231753259';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.johnlewis.com/kusmi-essential-tea-selection-box-of-24-52g/p231490043': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1203&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.johnlewis.com%2Fkusmi-essential-tea-selection-box-of-24-52g%2Fp231490043';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.johnlewis.com/emma-bridgewater-sampler-teapot-1-4l/p436272': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1203&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.johnlewis.com%2Femma-bridgewater-sampler-teapot-1-4l%2Fp436272';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'https://docs.google.com/spreadsheets/d/1iEWSoyREfj8N_cwKKTIKw5jJ_U7MRwdxYXjJPZktUr0/edit#gid=601256333':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1203&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.johnlewis.com%2Femma-bridgewater-black-toast-teapot-1-4l%2Fp436257';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.johnlewis.com/emma-bridgewater-polka-hearts-mr-and-mrs-teapot-1-4l/p436262': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1203&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.johnlewis.com%2Femma-bridgewater-polka-hearts-mr-and-mrs-teapot-1-4l%2Fp436262';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.johnlewis.com/emma-bridgewater-sampler-tea-for-one-set-red/p436271': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1203&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.johnlewis.com%2Femma-bridgewater-sampler-tea-for-one-set-red%2Fp436271';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.johnlewis.com/emma-bridgewater-polka-dot-teapot-1-4l/p230214250': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1203&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.johnlewis.com%2Femma-bridgewater-polka-dot-teapot-1-4l%2Fp230214250';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.johnlewis.com/emma-bridgewater-black-toast-tea-for-one-set-0-3l-black/p436256': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1203&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.johnlewis.com%2Femma-bridgewater-black-toast-tea-for-one-set-0-3l-black%2Fp436256';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.johnlewis.com/emma-bridgewater-polka-dot-tea-for-one-set-multi/p436265?kpid=231958387&s_kenid=5e8f091b-e741-80c9-5a24-00004c1c2356&s_kwcid=ppc_pla&tmad=c&tmcampid=73': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1203&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.johnlewis.com%2Femma-bridgewater-polka-dot-tea-for-one-set-multi%2Fp436265%3Fkpid%3D231958387%26s_kenid%3D5e8f091b-e741-80c9-5a24-00004c1c2356%26s_kwcid%3Dppc_pla%26tmad%3Dc%26tmcampid%3D73';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.johnlewis.com/williamson-tea-earl-grey-tea-100g/p159159': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1203&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.johnlewis.com%2Fwilliamson-tea-earl-grey-tea-100g%2Fp159159';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.johnlewis.com/williamson-tea-traditional-afternoon-tea-bags-100g/p166659': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1203&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.johnlewis.com%2Fwilliamson-tea-traditional-afternoon-tea-bags-100g%2Fp166659';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.johnlewis.com/williamson-teas-green-nature-tea-caddy-40-bags/p511235': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1203&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.johnlewis.com%2Fwilliamson-teas-green-nature-tea-caddy-40-bags%2Fp511235';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+
+		/*###################
+		#	Emmabridgewater	#
+		###################*/
+
+case 'http://www.emmabridgewater.co.uk/invt/1sam010104': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=2642&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.emmabridgewater.co.uk%2Finvt%2F1sam010104';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.emmabridgewater.co.uk/invt/bwbs104': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=2642&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.emmabridgewater.co.uk%2Finvt%2Fbwbs104';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.emmabridgewater.co.uk/invt/1poh030104': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=2642&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.emmabridgewater.co.uk%2Finvt%2F1poh030104';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.emmabridgewater.co.uk/invt/1sam031679': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=2642&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.emmabridgewater.co.uk%2Finvt%2F1sam031679';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.emmabridgewater.co.uk/invt/pols104': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=2642&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.emmabridgewater.co.uk%2Finvt%2Fpols104';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.emmabridgewater.co.uk/invt/1blt031679': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=2642&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.emmabridgewater.co.uk%2Finvt%2F1blt031679';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.emmabridgewater.co.uk/invt/unjs104': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=2642&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.emmabridgewater.co.uk%2Finvt%2Funjs104';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.emmabridgewater.co.uk/invt/1pod031679': 
+$affiliatelink = 'awinmid=2642&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.emmabridgewater.co.uk%2Finvt%2F1pod031679';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.emmabridgewater.co.uk/invt/1swp010104': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=2642&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.emmabridgewater.co.uk%2Finvt%2F1swp010104';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+
+		/*#######################
+		#	Hollandandbarrett	#
+		#######################*/
+
+case 'http://www.hollandandbarrett.com/shop/product/pukka-peppermint-licorice-tea/-60007078':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1837&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.hollandandbarrett.com%2Fshop%2Fproduct%2Fpukka-peppermint-licorice-tea%2F-60007078';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.hollandandbarrett.com/shop/product/pukka-love-tea-60097650?c=pukka%20love':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1837&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.hollandandbarrett.com%2Fshop%2Fproduct%2Fpukka-love-tea-60097650%3Fc%3Dpukka%2520love';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.hollandandbarrett.com/shop/product/pukka-night-time-tea/-60097652':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1837&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.hollandandbarrett.com%2Fshop%2Fproduct%2Fpukka-night-time-tea%2F-60097652';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.hollandandbarrett.com/shop/product/pukka-revitalise-tea/-60076708':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1837&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.hollandandbarrett.com%2Fshop%2Fproduct%2Fpukka-revitalise-tea%2F-60076708';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.hollandandbarrett.com/shop/product/pukka-three-mint-60097648?c=pukka':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1837&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.hollandandbarrett.com%2Fshop%2Fproduct%2Fpukka-three-mint-60097648%3Fc%3Dpukka';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.hollandandbarrett.com/shop/product/pukka-lemongrass-ginger-tea/-60076689':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1837&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.hollandandbarrett.com%2Fshop%2Fproduct%2Fpukka-lemongrass-ginger-tea%2F-60076689';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.hollandandbarrett.com/shop/product/pukka-organic-three-ginger-tea-60083774?c=pukka':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1837&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.hollandandbarrett.com%2Fshop%2Fproduct%2Fpukka-organic-three-ginger-tea-60083774%3Fc%3Dpukka';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.hollandandbarrett.com/shop/product/pukka-three-tulsi-tea/-60076724':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1837&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.hollandandbarrett.com%2Fshop%2Fproduct%2Fpukka-three-tulsi-tea%2F-6007672';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.hollandandbarrett.com/shop/product/vitalife-matcha-green-tea-high-grade-60098981?c=matcha':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1837&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.hollandandbarrett.com%2Fshop%2Fproduct%2Fvitalife-matcha-green-tea-high-grade-60098981%3Fc%3Dmatcha';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.hollandandbarrett.com/shop/product/pukka-harmonise-tea-60097649':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1837&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.hollandandbarrett.com%2Fshop%2Fproduct%2Fpukka-harmonise-tea-60097649';
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+case 'http://www.hollandandbarrett.com/shop/product/pukka-relax-tea-60097653?c=Pukka%20Relax%20Tea':
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=1837&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.hollandandbarrett.com%2Fshop%2Fproduct%2Fpukka-relax-tea-60097653%3Fc%3DPukka%2520Relax%2520Tea';
+header( 'refresh: 3; url=' . $affiliatelink  );
+break;
+
+
+
+		/*###########################
+		#	discount-supplements	#
+		###########################*/
+
+case 'http://www.discount-supplements.co.uk/health-supplements-herbal-teas-clearspring-organic-sencha-green-loose-tea-125g?utm_source=GoogleBase&utm_medium=shopping&utm_campaign=GoogleBase&utm_term=Clearspring%20Organic%20Sencha%20Green%20Loose%20Tea%20125g%20Pack(s)&CAWELAID=1567155003&cagpspn=pla&gclid=CPjQxL6457sCFaXItAodp3EAbA#.UsmGdfRdUnc': 
+$affiliatelink = 'http://www.awin1.com/cread.php?awinmid=2394&awinaffid=187995&clickref=&p=http%3A%2F%2Fwww.discount-supplements.co.uk%2Fhealth-supplements-herbal-teas-clearspring-organic-sencha-green-loose-tea-125g%3Futm_source%3DGoogleBase%26utm_medium%3Dshopping%26utm_campaign%3DGoogleBase%26utm_term%3DClearspring%2520Organic%2520Sencha%2520Green%2520Loose%2520Tea%2520125g%2520Pack(s)%26CAWELAID%3D1567155003%26cagpspn%3Dpla%26gclid%3DCPjQxL6457sCFaXItAodp3EAbA%23.UsmGdfRdUnc';		
+header( 'refresh: 3; url=' . $affiliatelink  );	      
+break;
+
+
+
+	
+default:
+
+header( 'refresh: 3; url=' . $linkfrom  );
+}
+?>
+<div style="text-align:center; margin-top:20px; font-family:Arial, Helvetica, sans-serif;">
+
+ <img src="http://www.yourteamarket.com/skin/frontend/default/modern/images/logo.png" id="logo"/>
+
+  <h1>Thanks for visiting Your Tea Market</h1><br>
+  <p>We hope you have found what you were looking for!</p>
+ <img src="http://www.shopsupplements247.com/skin/frontend/default/modern/images/loading_icon.gif" id="loading" />
+  <p>We are now redirecting you to your chosen product</p>
+  
+  <br />
+  <br />
+<span style="font-style:italic; font-size:10px; color: #999;">If page doesn't load,<a href="http://www.yourteamarket.com/contactus/">click here</a> to let us know.</span> 
+</div>

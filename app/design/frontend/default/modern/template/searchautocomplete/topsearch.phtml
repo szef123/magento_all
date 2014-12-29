@@ -1,0 +1,32 @@
+<form id="search_mini_form" action="<?php echo $this->helper('catalogsearch')->getResultUrl() ?>" method="get">
+    <div class="form-search">
+    	<div class="search_wraper">
+        
+       <!-- <label for="search"><?php //echo $this->__('Search:') ?></label>-->
+       
+        <input id="search" type="text" name="<?php echo $this->helper('catalogsearch')->getQueryParamName() ?>" value="<?php echo $this->helper('catalogsearch')->getEscapedQueryText() ?>"  class="input-text" />
+        
+        <div class="search_after">
+        <button type="submit" title="<?php echo $this->__('Search') ?>" class="button"><?php echo $this->__('Search') ?></button>
+        </div>
+        
+        <div id="search_autocomplete" class="search-autocomplete"></div>
+<!--
+        <script type="text/javascript">
+        //<![CDATA[
+            var searchForm = new Varien.searchForm('search_mini_form', 'search', '<?php echo $this->__('Search entire store here...') ?>');
+            searchForm.initAutocomplete('<?php echo $this->helper('searchautocomplete')->getSuggestUrl() ?>', 'search_autocomplete');
+        //]]>
+        </script>
+-->
+        <script type="text/javascript">
+        //<![CDATA[
+            var searchForm = new Varien.searchForm('search_mini_form', 'search', '<?php echo $this->__('Just type the name of the tea you are looking for...') ?>');
+            searchForm.initAutocomplete('<?php echo $this->helper('searchautocomplete')->getSuggestUrl() ?>', 'search_autocomplete');
+        //]]>
+        </script>
+		</div>
+    </div>
+</form>
+
+<?php echo Mage::helper('searchautocomplete')->getStyle(); ?>

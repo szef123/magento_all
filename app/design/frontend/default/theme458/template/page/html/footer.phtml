@@ -1,0 +1,66 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<div class="footer-container">
+	<div class="container_24">
+		<div class="wrapper">
+			<div class="grid_24">
+				<div class="footer">
+					  <div class="footer-cols-wrapper">
+						<div class="footer-col">			
+							<h4><?php echo $this->__('Information') ?></h4>
+							<div class="footer-col-content">
+								<?php echo $this->getChildHtml('cms_footer_links') ?>
+								<?php echo $this->getChildHtml('footer_links') ?>
+							</div>
+						</div>
+						<?php echo $this->getChildHtml('footer_list') ?>
+						<?php echo $this->getChildHtml('left.newsletter') ?>
+                        <div class="facebook_supple">
+                        <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=384285394967458";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like-box" data-href="https://www.facebook.com/shopsupplements247" data-width="292" data-height="200" data-colorscheme="dark" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+                        </div>
+					  </div>
+                      
+                      
+                      
+                      <div class="copy_right">
+                      	<address><?php echo $this->getCopyright() ?></address>
+						<?php echo $this->getChildHtml('store_switcher') ?>
+                       </div>
+					  <div class="clear"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

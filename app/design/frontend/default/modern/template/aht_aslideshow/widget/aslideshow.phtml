@@ -1,0 +1,43 @@
+<?php $item = $this->_getCollectionWidget($this->getAslideshowId()); ?>
+<?php $_helper = $this->helper('catalog/output'); ?>
+<?php if ($item) : ?>
+<?php //foreach ($collection as $item) : ?><?php //echo '<pre>'; print_r($item->getProductList()); die('sdfsd'); ?>
+    <!--if slideshow type is SLIDESHOW_IMAGE-->
+    <?php
+        $_imageWidth = $item->getImageWidth();
+        $_imageHeight = $item->getImageHeight();
+    ?>
+    <?php $_imageList = $item->getImageList(); ?>
+    <?php if (is_array($_imageList) and sizeof($_imageList) > 0) : ?>
+        <ul class="aviaslider" style="width: <?php echo $item->getImageWidth(); ?>px; height: <?php echo $item->getImageHeight(); ?>px;" id="frontpage-slider-<?php echo $item->getId(); ?>">
+        <?php foreach ($_imageList as &$_item) : ?>
+            <li><a href="<?php echo $_item['label']; ?>" title="" ><img src="<?php echo $this->helper('aslideshow/image')->init($_item['file'])->resize($_imageWidth,$_imageHeight); ?>" alt="<?php echo $_item['caption']; ?>" /></a></li>
+        <?php endforeach; ?>
+        </ul>
+    <?php endif; ?>
+    <script type="text/javascript">
+        jQuery(document).ready(function(){
+            jQuery('#frontpage-slider-<?php echo $item->getId(); ?>').aviaSlider({
+				    // wich element inside the container should serve as slide
+			    animationSpeed: <?php echo $item->getAnimationSpeed() ?>,		// animation duration
+			    autorotation: <?php if($item->getAutoRotation() == 1): ?>true<?php else: ?>false<?php endif; ?>,			// autorotation true or false?
+			    autorotationSpeed: <?php echo $item->getAutoRotationSpeed(); ?>,		// duration between autorotation switch in Seconds
+			    //appendControlls: '',		// element to apply controlls to
+			    slideControlls: '<?php echo $item->getSlideControlls(); ?>',	// controlls, yes or no?
+			    blockSize: {height: <?php if($item->getBlocksizeHeight() == 'full'): ?>'full'<?php else: ?><?php echo $item->getBlocksizeHeight(); ?><?php endif; ?>, width: <?php if($item->getBlocksizeWidth() == 'full'): ?>'full'<?php else: ?><?php echo $item->getBlocksizeWidth(); ?><?php endif; ?>},
+			    betweenBlockDelay: <?php if(!is_null($item->getBetweenBlockDelay())): ?><?php echo $item->getBetweenBlockDelay(); ?><?php else: ?>30<?php endif; ?>,
+			    display: '<?php echo $item->getDisplay(); ?>',
+			    switchMovement: true, //<?php echo $item->getSwitchMovement(); ?>,
+			    showText: <?php if($item->getSlideshowFor() == 'SLIDESHOW_IMAGE'): ?><?php if($item->getShowText()==1): ?>true<?php else: ?>false<?php endif; ?><?php else: ?>false<?php endif; ?>,
+			    transition: '<?php echo $item->getTransition() ?>',			//slide, fade or drop	
+			    backgroundOpacity: <?php echo $item->getBackgroundOpacity(); ?>,		// opacity for background
+			    transitionOrder: ['diagonaltop', 'diagonalbottom','topleft', 'bottomright', 'random']
+            });
+        });
+
+    </script>
+<?php //endforeach; ?>
+<!-- Copyright -->
+<div style="position:absolute;top:-8888px;">Copyright &copy;2011&nbsp;<a href="http://www.mage-shop.com/">Mage-shop.com</a>&nbsp;|&nbsp;<a href="http://www.mage-shop.com/magento-slideshow-free.html">MS Slideshow Free</a></div>
+<div style="clear:both;"></div>
+<?php endif; ?>

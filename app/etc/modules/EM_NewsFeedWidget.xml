@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Branko Ajzele, http://activecodeline.com
+ *
+ * NOTICE OF LICENSE
+ *
+ * @category    ActiveCodeline
+ * @package     ActiveCodeline_Widget
+ * @copyright   Copyright (c) 2009 Branko Ajzele
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+-->
+<config>
+    <modules>
+        <EM_NewsFeedWidget>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Cms />
+                <Mage_Widget />
+            </depends>
+        </EM_NewsFeedWidget>
+    </modules>
+</config>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+         <modules>
+                <M4U_HelloWorld>
+                        <active>true</active>
+                        <codePool>local</codePool>
+                </M4U_HelloWorld>
+         </modules>
+</config>

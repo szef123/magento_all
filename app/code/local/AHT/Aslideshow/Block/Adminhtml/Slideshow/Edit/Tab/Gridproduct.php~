@@ -1,0 +1,70 @@
+<?php
+/**
+ * AHT_Aslideshow Extension
+ *
+ * @category    Local
+ * @package     AHT_Aslideshow
+ * @author      dungnv (dungnv@arrowhitech.com)
+ * @copyright   Copyright(c) 2011 Arrowhitech Inc. (http://www.arrowhitech.com)
+ *
+ */
+
+/**
+ *
+ * @category   Local
+ * @package    AHT_Aslideshow
+ * @author     dungnv <dungnv@arrowhitech.com>
+ */
+class AHT_Aslideshow_Block_Adminhtml_Slideshow_Edit_Tab_Gridproduct extends Mage_Adminhtml_Block_Widget_Container
+{
+
+    /**
+     * Set template
+     */
+    public function __construct() {
+        parent::__construct();        
+        $this->setTemplate('aht_aslideshow/products.phtml');
+    }
+
+    public function getTabsHtml() {
+        return $this->getChildHtml('tabs');
+    }
+
+    protected function _prepareLayout() {
+        $this->setChild('tabs', $this->getLayout()->createBlock('aslideshow/adminhtml_slideshow_edit_tab_gridproduct', 'slideshow.grid.products'));
+//        $this->setChild('store_switcher',
+//            $this->getLayout()->createBlock('adminhtml/store_switcher')
+//                ->setUseConfirm(false)
+//                ->setSwitchUrl($this->getUrl('*/*/edit', array('id'=>$this->getRequest()->getParam('id'),'_confirm'=>false,'store'=>null)))
+//                ->setTemplate('store/switcher.phtml'));
+        return parent::_prepareLayout();
+    }
+
+    protected function getSlideshowData() {
+        return Mage::registry('slideshow_data');
+    }
+
+    public function getGridHtml() {
+        return $this->getChildHtml('grid');
+    }
+
+    public function isSingleStoreMode() {
+        if (!Mage::app()->isSingleStoreMode()) {
+            return false;
+        }
+        return true;
+    }
+
+    public function getProductsJson() {
+        $products = explode(',', $this->getSlideshowData()->getProductIds());
+        if (!empty($products) && isset($products[0]) && $products[0] != '') {
+            $data = array();
+            foreach ($products as $element) {
+                $data[$element] = $element;
+            }
+            return Zend_Json::encode($data);
+        }
+        return '{}';
+    }
+
+}
